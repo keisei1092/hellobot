@@ -1,0 +1,588 @@
+Script started on Wed May 13 18:02:56 2015
+ ________________________________ 
+< APL hackers do it in the quad. >
+ -------------------------------- 
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+^[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot^C[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:02:58[00m [35m[00m[00m[00m[68D[?1h=sscir  rp ipt
+[J[0mscript    [J[1;31mscripts[0m/[J[A[0m[27m[24m[11Cscript[K[53C[32m18:02:58[00m [35m[00m[00m[00m[62Ds[1m/[0m[0m [?1l>
+[J]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot/scripts]1;..lobot/scripts[0m[27m[24m[J[35m[scripts] [00m[K[60C[32m18:03:04[00m [35m[00m[00m[00m[69D[?1h=lls[?1l>
+]2;ls -G]1;lsexample.coffee
+[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot/scripts]1;..lobot/scripts[0m[27m[24m[J[35m[scripts] [00m[K[60C[32m18:03:07[00m [35m[00m[00m[00m[69D[?1h=sscs  eemacs scripts/helloworld.coffee[?1l>
+]2;emacs scripts/helloworld.coffee]1;emacs[?1049h[?12;25h[?1h=[H[2J[25d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[25d[?25lfpowerline")[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ---------------------------[39;49m
+[A
+Eager macro-expansion failure: (error "Autoloading failed to define function de\
+[A[2d[?12l[?25h[?12;25h[25d[?25lne")[K[Arror: (file-error "Cannot open load file" "no such file or directory" "powerli[H
+[?12l[?25h[?12;25h[H[2J[25d[K[A[?25lLoading css-mode...[K[H[?12l[?25h[?12;25h[24;20H[?25ldone[H[?12l[?25h[?12;25h[>0c[25d[K[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[?25l[30m[48;5;250m-UUU:**--F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction RBlock WS) ------------[39;49m
+[A
+Loading css-mode...done[K[H[?12l[?25h[?12;25h[1;24r[23;1H[1L[1;25r[25;1H[?25lFor information about GNU Emacs and the GNU system, type <f1> C-a.[23;1H[K[H[?12l[?25h[?12;25h[25d[?25lUse M-x make-directory RET RET to create the directory and its parents[H[?12l[?25h[?12;25h[25d[?25lUse M-x make-directory RET RET to create the directory and its parents[K[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250mhelloworld.coffee[0m[39;49m[30m[48;5;250m   All L1     (Fundamental RBlock WS) ------------[39;49m
+[A[H[?12l[?25h[?12;25h[25d[K[H[?25lmodule.exports = (robot) ->[2;3Hrobot.respond /HELLO$/i, (msg) ->[3;7Hmsg.send [38;5;89m"world"[39;49m[24;6H[30m[48;5;250m**--F1  [39;49m[1m[30m[48;5;250mhelloworld.coffee[0m[39;49m[30m[48;5;250m   All L3     (Fundamental WS) -------[39;49m[3;23H[?12l[?25h[?12;25h[25;1H[?25lSaving file /Users/keisei/hellobot/scripts/scripts/helloworld.coffee...[3;23H[?12l[?25h[?12;25h[1;24r[23;1H[1M[1;25r[25;1H[?25l[38;5;20mor n) [39;49m[K[A[38;5;20mDirectory `/Users/keisei/hellobot/scripts/scripts/' does not exist; create? (y [39;49m\
+[A
+	[?12l[?25h[?12;25h[1;24r[23;1H[1L[1;25r[25;1H[K[23d[K
+
+[1;24r[23;1H[1M[1;25r[25;1H[?25l[38;5;20m not exist; create? (y or n) [39;49m[A[38;5;20mPlease answer y or n.  Directory `/Users/keisei/hellobot/scripts/scripts/' does[39;49m\
+[A[25;30H[?12l[?25h[?12;25h[?25lor n) n[K[ADirectory `/Users/keisei/hellobot/scripts/scripts/' does not exist; create? (y [3;23H[?12l[?25h[?12;25h[1;24r[23;1H[1L[1;25r[25;1H[?25lCanceled[23;1H[K[3;23H[?12l[?25h[?12;25h[25;1H[K[3;23H[1;24r[23;1H[1M[1;25r[25;1H[?25l[38;5;20m, q, C-r, d or C-h) [39;49m[A[38;5;20mSave file /Users/keisei/hellobot/scripts/scripts/helloworld.coffee? (y, n, !, .[39;49m\
+[A[25;21H[?12l[?25h[?12;25h[?25l, q, C-r, d or C-h) n[ASave file /Users/keisei/hellobot/scripts/scripts/helloworld.coffee? (y, n, !, .[25;22H[?12l[?25h[?12;25h[1;24r[23;1H[1L[1;25r[25;1H[K[23d[K[3;23H[25;1H[?25l[38;5;20mModified buffers exist; exit anyway? (y or n) [39;49m[?12l[?25h[?12;25h[?25lModified buffers exist; exit anyway? (y or n) y[3;23H[?12l[?25h[?12;25h[25;1H[K[?1l>[?12l[?25h[?1049l[39;49m[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot/scripts]1;..lobot/scripts[0m[27m[24m[J[35m[scripts] [00m[K[60C[32m18:03:28[00m [35m[00m[00m[00m[69D[?1h=emacs scripts/helloworld.coffeehelloworld.coffee [18Dhelloworld.coffee [18Dhelloworld.coffee [18Dhelloworld.coffee [18Dhelloworld.coffee [18Dhelloworld.coffee [18Dhelloworld.coffee [18Dhelloworld.coffee [18D[?1l>
+]2;emacs helloworld.coffee]1;emacs[?1049h[?12;25h[?1h=[H[2J[25d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[25d[?25lfpowerline")[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ---------------------------[39;49m
+[A
+Eager macro-expansion failure: (error "Autoloading failed to define function de\
+[A[2d[?12l[?25h[?12;25h[25d[?25lne")[K[Arror: (file-error "Cannot open load file" "no such file or directory" "powerli[H
+[?12l[?25h[?12;25h[H[2J[25d[K[A[?25lLoading css-mode...[K[H[?12l[?25h[?12;25h[24;20H[?25ldone[H[?12l[?25h[?12;25h[>0c[25d[K[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[?25l[30m[48;5;250m-UUU:**--F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction RBlock WS) ------------[39;49m
+[A
+Loading css-mode...done[K[H[?12l[?25h[?12;25h[1;24r[23;1H[1L[1;25r[25;1H[?25lFor information about GNU Emacs and the GNU system, type <f1> C-a.[23;1H[K[H[?12l[?25h[?12;25h[25d[?25l(New file)[K[H[?12l[?25h[?12;25h[25d[?25l(New file)[K[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250mhelloworld.coffee[0m[39;49m[30m[48;5;250m   All L1     (Fundamental RBlock WS) ------------[39;49m
+[A[H[?12l[?25h[?12;25h[25d[?25lMark set[K[H[?12l[?25h[?12;25h[?25lmodule.exports = (robot) ->[2;3Hrobot.respond /HELLO$/i, (msg) ->[3;5Hmsg.send [38;5;89m"world"[39;49m[24;6H[30m[48;5;250m**--F1  [39;49m[1m[30m[48;5;250mhelloworld.coffee[0m[39;49m[30m[48;5;250m   All L3     (Fundamental WS) -------[39;49m[3;21H[?12l[?25h[?12;25h[25;1H[K[3;21H[25;1H[?25lSaving file /Users/keisei/hellobot/scripts/helloworld.coffee...[3;21H[?12l[?25h[?12;25h[25;1H[?25lWrote /Users/keisei/hellobot/scripts/helloworld.coffee[K[3;21H[?12l[?25h[?12;25h[25;1H[?25l保存しました[K[3;21H[?12l[?25h[?12;25h[24;6H[?25l[30m[48;5;250m--[39;49m[3;21H[?12l[?25h[?12;25h[25;1H[K[3;21H[25;1H[?25l(No files need saving)[3;21H[?12l[?25h[?12;25h[25;1H[K[?1l>[?12l[?25h[?1049l[39;49m[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot/scripts]1;..lobot/scripts[0m[27m[24m[J[35m[scripts] [00m[K[60C[32m18:03:35[00m [35m[00m[00m[00m[69D[?1h=bbin/h   b  nnnn  ...[?1l>
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:03:43[00m [35m[00m[00m[00m[68D[?1h=bbin/hubot[?1l>
+]2;bin/hubot]1;bin/hubot[1G[0Jhellobot> [11G[Wed May 13 2015 18:03:47 GMT+0900 (JST)] INFO /Users/keisei/hellobot/scripts/helloworld.coffee is using deprecated documentation syntax
+[Wed May 13 2015 18:03:47 GMT+0900 (JST)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Wed May 13 2015 18:03:47 GMT+0900 (JST)] INFO Using default redis on localhost:6379
+Y[1G[0Jhellobot> [11GHubot hello
+[1G[0Jhellobot> [11Gworld!
+[1G[0Jhellobot> [11G
+[1G[0Jhellobot> [11GHubot helo
+[1G[0Jhellobot> [11Gl[1G[0Jhellobot> [11Ghello
+[1G[0Jhellobot> [11Gei[1G[0Jhellobot> e[12Gxit
+[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:05:43[00m [35m[00m[00m[00m[68D[?1h=
+[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[31m18:05:44[00m [35m[00m[00m[00m[68D[?1h=lls[?1l>
+]2;ls -G]1;lsProcfile              external-scripts.json package.json
+README.md             hubot-scripts.json    [36mscripts[39;49m[0m
+[36mbin[39;49m[0m                   [36mnode_modules[39;49m[0m          typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:05:45[00m [35m[00m[00m[00m[68D[?1h=sscripts[1m/[0m[0m [?1l>
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot/scripts]1;..lobot/scripts[0m[27m[24m[J[35m[scripts] [00m[K[60C[32m18:05:49[00m [35m[00m[00m[00m[69D[?1h=lls[?1l>
+]2;ls -G]1;lsexample.coffee    helloworld.coffee
+[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot/scripts]1;..lobot/scripts[0m[27m[24m[J[35m[scripts] [00m[K[60C[32m18:05:49[00m [35m[00m[00m[00m[69D[?1h=eemacs helloworld.coffee[1m [0m[0m [?1l>
+]2;emacs helloworld.coffee]1;emacs[?1049h[?12;25h[?1h=[H[2J[25d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[25d[?25lfpowerline")[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ---------------------------[39;49m
+[A
+Eager macro-expansion failure: (error "Autoloading failed to define function de\
+[A[2d[?12l[?25h[?12;25h[25d[?25lne")[K[Arror: (file-error "Cannot open load file" "no such file or directory" "powerli[H
+[?12l[?25h[?12;25h[H[2J[25d[K[A[?25lLoading css-mode...[K[H[?12l[?25h[?12;25h[24;20H[?25ldone[H[?12l[?25h[?12;25h[>0c[25d[K[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[?25l[30m[48;5;250m-UUU:**--F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction RBlock WS) ------------[39;49m
+[A
+Loading css-mode...done[K[H[?12l[?25h[?12;25h[1;24r[23;1H[1L[1;25r[25;1H[?25lFor information about GNU Emacs and the GNU system, type <f1> C-a.[23;1H[K[H[?12l[?25h[?12;25h[25d[?25lFor information about GNU Emacs and the GNU system, type <f1> C-a.[K[Hmodule.exports = (robot) ->[K
+  robot.respond /HELLO$/i, (msg) ->[K
+    msg.send [38;5;89m"world"[39;49m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250mhelloworld.coffee[0m[39;49m[30m[48;5;250m   All L1     (Fundamental RBlock WS) ------------[39;49m
+[A[H[?12l[?25h[?12;25h[25d[K[24;58H[?25l[30m[48;5;250mWS) -------[39;49m[1;28H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m2[39;49m[H
+[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m1[39;49m[H[?12l[?25h[?12;25h[25d[?25l(No files need saving)[H[?12l[?25h[?12;25h[25d[K[?1l>[?12l[?25h[?1049l[39;49m[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot/scripts]1;..lobot/scripts[0m[27m[24m[J[35m[scripts] [00m[K[60C[32m18:05:57[00m [35m[00m[00m[00m[69D[?1h=emacs helloworld.coffee[23Dls                     [21Dscriptsls     scriptsls     emacs helloworld.coffee[23D                       [23D...[?1l>
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:06:02[00m [35m[00m[00m[00m[68D[?1h=lls[?1l>
+]2;ls -G]1;lsProcfile              external-scripts.json package.json
+README.md             hubot-scripts.json    [36mscripts[39;49m[0m
+[36mbin[39;49m[0m                   [36mnode_modules[39;49m[0m          typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:06:03[00m [35m[00m[00m[00m[68D[?1h=bbin/hubot[?1l>
+]2;bin/hubot]1;bin/hubot[1G[0Jhellobot> [11G[Wed May 13 2015 18:06:07 GMT+0900 (JST)] INFO /Users/keisei/hellobot/scripts/helloworld.coffee is using deprecated documentation syntax
+[Wed May 13 2015 18:06:07 GMT+0900 (JST)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Wed May 13 2015 18:06:07 GMT+0900 (JST)] INFO Using default redis on localhost:6379
+
+[1G[0Jhellobot> [11GHubot helo[1G[0Jhellobot> Hubot hel[20Glo
+[1G[0Jhellobot> [11Ghello
+[1G[0Jhellobot> [11GHELLO
+[1G[0Jhellobot> [11Gwordl!
+[1G[0Jhellobot> [11G[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:06:19[00m [35m[00m[00m[00m[68D[?1h=lls[?1l>
+]2;ls -G]1;lsProcfile              external-scripts.json package.json
+README.md             hubot-scripts.json    [36mscripts[39;49m[0m
+[36mbin[39;49m[0m                   [36mnode_modules[39;49m[0m          typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:06:19[00m [35m[00m[00m[00m[68D[?1h=eemacs    e [?1l>
+]2;emacs .]1;e[?1049h[?12;25h[?1h=[H[2J[25d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[25d[?25lfpowerline")[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ---------------------------[39;49m
+[A
+Eager macro-expansion failure: (error "Autoloading failed to define function de\
+[A[2d[?12l[?25h[?12;25h[25d[?25lne")[K[Arror: (file-error "Cannot open load file" "no such file or directory" "powerli[H
+[?12l[?25h[?12;25h[H[2J[25d[K[A[?25lLoading css-mode...[K[H[?12l[?25h[?12;25h[24;20H[?25ldone[H[?12l[?25h[?12;25h[>0c[25d[K[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[?25l[30m[48;5;250m-UUU:**--F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction RBlock WS) ------------[39;49m
+[A
+Loading css-mode...done[K[H[?12l[?25h[?12;25h[1;24r[23;1H[1L[1;25r[25;1H[?25lFor information about GNU Emacs and the GNU system, type <f1> C-a.[23;1H[K[H[?12l[?25h[?12;25h[25d[?25lls does not support --dired; see `dired-use-ls-dired' for more details.[H[?12l[?25h[?12;25h[25d[?25lls does not support --dired; see `dired-use-ls-dired' for more details.[K[H  [38;5;28m/Users/keisei/hellobot[39;49m:[K
+  total used in directory 104 available 3508017[K
+  drwxr-xr-x   14 keisei  staff   476B May 13 18:05 [38;5;21m./[39;49m[K
+  drwxr-xr-x@ 112 keisei  staff   3.7K May 13 18:06 [38;5;21m../[39;49m[K
+  -rw-r--r--    1 keisei  staff   197B Oct 22  2014 .editorconfig[K
+  -rw-r--r--    1 keisei  staff    39B Dec 20 07:57 .gitignore[K
+  -rw-r--r--    1 keisei  staff    67B May 13 18:06 .hubot_history[K
+  -rw-r--r--    1 keisei  staff    24B May 13 18:02 Procfile[K
+  -rw-r--r--    1 keisei  staff   7.7K May 13 18:02 README.md[K
+  drwxr-xr-x    4 keisei  staff   136B May 13 18:02 [38;5;21mbin/[39;49m[K
+  -rw-r--r--    1 keisei  staff   232B May 13 18:02 external-scripts.json[K
+  -rw-r--r--    1 keisei  staff     2B May 13 18:02 hubot-scripts.json[K
+  drwxr-xr-x   17 keisei  staff   578B May 13 18:02 [38;5;21mnode_modules/[39;49m[K
+  -rw-r--r--    1 keisei  staff   686B May 13 18:02 package.json[K
+  drwxr-xr-x    4 keisei  staff   136B May 13 18:03 [38;5;21mscripts/[39;49m[K
+  -rw-r--r--    1 keisei  staff    15K May 13 18:06 typescript[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:%%--F1  [39;49m[1m[30m[48;5;250mhellobot         [0m[39;49m[30m[48;5;250m   All L5     (Dired by name RBlock WS) ----------[39;49m
+[A[5;53H[?12l[?25h[?12;25h[25;1H[K[24;39H[?25l[30m[48;5;250m6     (Dired by name WS) -------[39;49m[6;53H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m7[39;49m[7;53H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m8[39;49m[8;53H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m9[39;49m[9;53H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m10[39;49m[10;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m1[39;49m[11;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m2[39;49m[12;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m3[39;49m[13;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m2[39;49m[12;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m3[39;49m[13;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m4[39;49m[14;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m5[39;49m[15;53H[?12l[?25h[?12;25h[H			[?25l[38;5;28m/scripts[39;49m:[2;28H6 available 3508016[K
+		4 keisei  staff   136B May 13 18:03 [38;5;21m./[39;49m[K[4;13H  14 keisei  staff   476B May 13 18:05 [38;5;21m../[39;49m[K
+		1 keisei  staff   3.3K Apr  4 07:51 example.coffee
+		1 keisei  staff    87B May 13 18:03 helloworld.coffee
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[24;14H[1m[30m[48;5;250mscripts          [0m[39;49m[30m[48;5;250m   All L5     (Dired by name RBlock WS) [39;49m[5;52H[?12l[?25h[?12;25h[H[?25l# Description:[K
+#   Example scripts for you to examine and try out.
+#[K
+# Notes:[K
+#   They are commented out by default, because most of them are pretty silly an\
+d[K
+#   wouldn't be useful and amusing enough for day to day huboting.
+#   Uncomment the ones you want to try and experiment with.
+#
+#   These are from the scripting documentation: https://github.com/github/hubot\
+/blob/master/docs/scripting.md
+
+module.exports = (robot) ->[15;3H# robot.hear /badger/i, (res) ->[16;3H#   res.send [38;5;89m"Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"[39;49m[17;3H#
+# robot.respond /open the (.*) doors/i, (res) ->[19;3H#   doorType = res.match[1][20;3H#   if doorType is [38;5;89m"pod bay"[39;49m[21;3H#     res.reply [38;5;89m"I'm afraid I can't let you do that."[39;49m[22;3H#   else[23;3H#     res.reply [38;5;89m"Opening #{doorType} doors"[39;49m[24;4H[30m[48;5;250m-:----F1  [39;49m[1m[30m[48;5;250mexample.coffee[0m[39;49m[30m[48;5;250m   Top L1     (Fundamental RBlock WS) -----[39;49m[H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m2     (Fundamental WS) -------[39;49m[H
+[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m3[39;49m[H
+
+[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m4[39;49m[4;1H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m5[39;49m[5;1H[?12l[?25h[?12;25h
+[24;36H[?25l[30m[48;5;250m6[39;49m[7;1H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m7[39;49m[8;1H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m8[39;49m[9;1H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m9[39;49m[10;1H[?12l[?25h[?12;25h
+[24;36H[?25l[30m[48;5;250m10[39;49m[12;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[13;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[14;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[15;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[16;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[17;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[18;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[19;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[20;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[21;1H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m20[39;49m[22;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;31H[30m[48;5;250m 1% L22[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.hear /I like pie/i, (res) ->[K[24;32H[30m[48;5;250m2% L23[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.emote [38;5;89m"makes a freshly baked pie"[39;49m[K[24;32H[30m[48;5;250m3% L24[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m5[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # lulz = ['lol', 'rofl', 'lmao'][K
+[30m[48;5;250m5% L26[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m7[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /lulz/i, (res) ->[K
+[30m[48;5;250m7% L28[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.send res.random lulz[K
+	[30m[48;5;250m9% L29[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;36H[30m[48;5;250m30[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.topic (res) ->[K
+	[30m[48;5;250m11% L31[39;49m[A[?12l[?25h[?12;25h[1;23r[2;1H[1M[1;25r[1;1H[K[23d[?25l  #   res.send [38;5;89m"#{res.message.text}? That's a Paddlin'"[39;49m[K[24;32H[30m[48;5;250m2% L32[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m3[39;49m[A[?12l[?25h[?12;25h[1;22r[2;1H[1M[1;25r[1;1H[K[22d[?25l  #[K[24;32H[30m[48;5;250m3% L34[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha\
+[A[24;37H[30m[48;5;250m5[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l', 'I see you'][K
+			[30m[48;5;250m4[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # leaveReplies = ['Are you still there?', 'Target lost', 'Searching'][K[24;32H[30m[48;5;250m6% L36[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m7[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.enter (res) ->[K
+	[30m[48;5;250m8% L38[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.send res.random enterReplies[K[24;32H[30m[48;5;250m9% L39[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.leave (res) ->[K
+	[30m[48;5;250m20% L40[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.send res.random leaveReplies[K[24;32H[30m[48;5;250m1% L41[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K
+				[30m[48;5;250m2% L42[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # answer = process.env.HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIV\
+[A
+				[30m[48;5;250m3% L43[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25lERSE_AND_EVERYTHING[K[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K
+				[30m[48;5;250m4% L44[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /what is the answer to the ultimate question of life/, (res) \
+[A
+				[30m[48;5;250m6% L45[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l->[K[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   unless answer?[K
+		[30m[48;5;250m7% L46[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.send [38;5;89m"Missing HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNI[39;49m\
+[A[24;37H[30m[48;5;250m7[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l[38;5;89mVERSE_AND_EVERYTHING in environment: please set and try again"[39;49m[K[24;32H[30m[48;5;250m8[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     return[K
+			[30m[48;5;250m9% L48[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.send [38;5;89m"#{answer}, but what is the question?"[39;49m[K[24;37H[30m[48;5;250m9[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;31H[30m[48;5;250m30% L50[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /you are a little slow/, (res) ->[K[24;32H[30m[48;5;250m2% L51[39;49m[A[?12l[?25h[?12;25h[1;23r[2;1H[1M[1;25r[23;1H[?25l  #   setTimeout () ->[K[24;37H[30m[48;5;250m2[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.send [38;5;89m"Who you calling 'slow'?"[39;49m[K
+[30m[48;5;250m3[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   , 60 * 1000[K
+		[30m[48;5;250m4% L54[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K
+				[30m[48;5;250m5% L55[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # annoyIntervalId = null[K
+	[30m[48;5;250m7% L56[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m7[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /annoy me/, (res) ->[K[24;32H[30m[48;5;250m8% L58[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   if annoyIntervalId[K
+	[30m[48;5;250m9% L59[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.send [38;5;89m"AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"[39;49m[K[24;36H[30m[48;5;250m60[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     return[K[24;31H[30m[48;5;250m41% L61[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m2[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.send [38;5;89m"Hey, want to hear the most annoying sound in the world?"[39;49m[K[24;32H[30m[48;5;250m3% L63[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   annoyIntervalId = setInterval () ->[K[24;32H[30m[48;5;250m4% L64[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.send [38;5;89m"AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"[39;49m[K[24;37H[30m[48;5;250m5[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   , 1000[K
+			[30m[48;5;250m6% L66[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m7[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /unannoy me/, (res) ->[K[24;32H[30m[48;5;250m7% L68[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   if annoyIntervalId[K
+	[30m[48;5;250m9% L69[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.send [38;5;89m"GUYS, GUYS, GUYS!"[39;49m[K
+[30m[48;5;250m51% L70[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     clearInterval(annoyIntervalId)[K[24;32H[30m[48;5;250m2% L71[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     annoyIntervalId = null[K
+	[30m[48;5;250m3% L72[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   else[K[24;37H[30m[48;5;250m3[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.send [38;5;89m"Not annoying you right now, am I?"[39;49m[K[24;32H[30m[48;5;250m5% L74[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K
+				[30m[48;5;250m6% L75[39;49m[A[?12l[?25h[?12;25h[1;22r[1;1H[1M[1;25r[22;1H[?25l  #[K[24;32H[30m[48;5;250m7% L76[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.router.post '/hubot/chatsecrets/:room', (req, res) ->[K[24;37H[30m[48;5;250m7[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   room   = req.params.room[K[24;37H[30m[48;5;250m8[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   data   = JSON.parse req.body.payload[K[24;32H[30m[48;5;250m8% L79[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   secret = data.secret[K[24;36H[30m[48;5;250m80[39;49m[A[?12l[?25h[?12;25h
+
+[?25l[38;5;20mI-search: [39;49m[23;1H[?12l[?25h[?12;25h[24;57H[?25l[30m[48;5;250m Isearch) [39;49m[A[?12l[?25h[?12;25h[25;11H[?25lP[?12l[?25h[?12;25h[23;1H[1;4H[K
+[C[?25lrobot.router.post '/hubot/chatsecrets/:room', (req, res) ->[3;7Hroom   = req.params.room[K[4;7Hdata   = JSON.parse req.body.payload[5;7Hsecret = data.secret[6;4H[K[7;7Hrobot.messageRoom room, [38;5;89m"I have a secret: #{secret}"[39;49m[8;4H[K[9;7Hres.send 'OK'[11;11Herror (err, res) ->[K[12;7Hrobot.logger.error [38;5;89m"DOES NOT COM[39;49m[38;5;153m[45mP[39;49m[38;5;89mUTE"[39;49m[13;4H[K
+	if res?[K
+	res.reply [38;5;89m"DOES NOT COMPUTE"[39;49m[16;4H[K
+[Crobot.respond /have a soda/i, (res) ->[K[18;7H# Get number of sodas had (coerced to a number).[19;7HsodasHad = robot.brain.get('totalSodas') * 1 or 0[20;4H[K
+	if sodasHad > 4[K[22;7H  res.reply [38;5;89m"I'm too fizzy.."[39;49m[K[23;4H[K[24;31H[30m[48;5;250m76% L87[39;49m[12;40H[?12l[?25h[?12;25h[25;12H[?25lO[?12l[?25h[?12;25h[?25l[38;5;20mFailing I-search: [39;49mP[48;5;217mO[39;49m[12;40H[?12l[?25h[?12;25h[25;21H[?25l[48;5;217mN[39;49m[12;40H[?12l[?25h[?12;25h[25;22H[?25l[48;5;217mG[39;49m[12;40H[?12l[?25h[?12;25h[25;22H[K[12;40H[25;21H[K[12;40H[25;1H[?25l[38;5;20mI-search: [39;49mP[K[12;40H[?12l[?25h[?12;25h[25;11H[K[12;40H[?25l[38;5;89mP[39;49m[24;37H[30m[48;5;250m0[39;49m[5;1H[?12l[?25h[?12;25h[25d[K[24;37H[?25l[30m[48;5;250m1    (Fundamental WS) --------[39;49m[6;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[7;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[8;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[9;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[10;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[11;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[12;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[13;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[14;1H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m90[39;49m[15;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[16;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[17;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[18;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[19;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[20;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[21;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[22;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   else[K[24;37H[30m[48;5;250m9[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.reply 'Sure!'[K
+	[30m[48;5;250m8% L100[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K
+				[30m[48;5;250m9% L101[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     robot.brain.set 'totalSodas', sodasHad+1[K[24;31H[30m[48;5;250m81% L102[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;38H[30m[48;5;250m3[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /sleep it off/i, (res) ->[K
+[30m[48;5;250m4[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   robot.brain.set 'totalSodas', 0[K
+[30m[48;5;250m3% L105[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.reply 'zzzzz'[K
+		[30m[48;5;250mBot L106[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[K[24;38H[?25l[30m[48;5;250m7[39;49m[A[?12l[?25h[?12;25h
+
+[?25lEnd of buffer[23;1H[?12l[?25h[?12;25h
+
+[K[24;6H[?25l[30m[48;5;250m**[39;49m[23;3H[?12l[?25h[?12;25h[?25l[38;5;124m[43m  [39;49m[24;38H[30m[48;5;250m6[39;49m[22;3H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m5[39;49m[21;3H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m4[39;49m[20;3H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m3[39;49m[19;3H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m2[39;49m[18;3H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m1[39;49m[17;3H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m0[39;49m[16;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m99 [39;49m[15;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[14;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[13;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[12;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[11;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[10;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[9;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[8;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[7;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m0[39;49m[6;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m89[39;49m[5;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[4;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[3;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[2;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   res.send 'OK'[K[24;31H[30m[48;5;250m83% L84[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m3[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   robot.messageRoom room, [38;5;89m"I have a secret: #{secret}"[39;49m[K[24;32H[30m[48;5;250m1% L82[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m1[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   secret = data.secret[K[24;32H[30m[48;5;250m0% L80[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   data   = JSON.parse req.body.payload[K[24;31H[30m[48;5;250m79% L79[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   room   = req.params.room[K[24;32H[30m[48;5;250m8% L78[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # robot.router.post '/hubot/chatsecrets/:room', (req, res) ->[K[24;32H[30m[48;5;250m6% L77[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m6[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[2;1H[1L[1;25r[2;1H[?25l  #[K[24;37H[30m[48;5;250m5[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #     res.send [38;5;89m"Not annoying you right now, am I?"[39;49m[K[24;32H[30m[48;5;250m5% L74[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   else[K[24;32H[30m[48;5;250m4% L73[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #     annoyIntervalId = null[K[24;32H[30m[48;5;250m3% L72[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #     clearInterval(annoyIntervalId)[K[24;32H[30m[48;5;250m2% L71[39;49m[1;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[2;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[3;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[4;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[5;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[6;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[9;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m80[39;49m[10;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[11;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[12;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[13;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[14;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[15;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[16;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[17;3H[?12l[?25h[?12;25h[25;1H[?25lQuit[17;3H[?12l[?25h[?12;25h[25;1H[K[24;37H[?25l[30m[48;5;250m6[39;49m[16;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[15;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[14;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[13;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[12;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[11;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m0[39;49m[10;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m79[39;49m[9;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[8;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[7;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[6;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[5;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[4;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[3;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[2;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #     res.send [38;5;89m"GUYS, GUYS, GUYS!"[39;49m[K[24;32H[30m[48;5;250m1% L70[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   if annoyIntervalId[K[24;32H[30m[48;5;250m0% L69[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # robot.respond /unannoy me/, (res) ->[K[24;31H[30m[48;5;250m69% L68[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m7[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   , 1000[K[24;37H[30m[48;5;250m6[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #     res.send [38;5;89m"AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"[39;49m[K[24;32H[30m[48;5;250m6% L65[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   annoyIntervalId = setInterval () ->[K[24;32H[30m[48;5;250m5% L64[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   res.send [38;5;89m"Hey, want to hear the most annoying sound in the world?"[39;49m[K[24;32H[30m[48;5;250m3% L63[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m2[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #     return[K[24;32H[30m[48;5;250m2% L61[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #     res.send [38;5;89m"AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"[39;49m[K[24;32H[30m[48;5;250m0% L60[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   if annoyIntervalId[K[24;36H[30m[48;5;250m59[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # robot.respond /annoy me/, (res) ->[K[24;31H[30m[48;5;250m58% L58[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m7[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # annoyIntervalId = null[K[24;32H[30m[48;5;250m7% L56[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m5[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   , 60 * 1000[K[24;37H[30m[48;5;250m4[39;49m[1;3H[?12l[?25h[?12;25h[1;22r[1;1H[1L[1;25r[1;1H[?25l  #     res.send [38;5;89m"Who you calling 'slow'?"[39;49m[K[24;32H[30m[48;5;250m5% L53[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   setTimeout () ->[K[24;37H[30m[48;5;250m2[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # robot.respond /you are a little slow/, (res) ->[K[24;32H[30m[48;5;250m3% L51[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m0[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   res.send [38;5;89m"#{answer}, but what is the question?"[39;49m[K[24;32H[30m[48;5;250m2% L49[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #     return[K[24;32H[30m[48;5;250m1% L48[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[2L[1;25r[1;1H[?25l  #     res.send [38;5;89m"Missing HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNI[39;49m\
+[A
+[38;5;89mVERSE_AND_EVERYTHING in environment: please set and try again"[39;49m[K[24;31H[30m[48;5;250m47% L47[39;49m[2;3H[?12l[?25h[?12;25h[A[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   unless answer?[K[24;32H[30m[48;5;250m6% L46[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[2L[1;25r[1;1H[?25l  # robot.respond /what is the answer to the ultimate question of life/, (res) \
+[A
+->[K[24;32H[30m[48;5;250m4% L45[39;49m[2;3H[?12l[?25h[?12;25h[A[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m4[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[2L[1;25r[1;1H[?25l  # answer = process.env.HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIV\
+[A
+ERSE_AND_EVERYTHING[K[24;32H[30m[48;5;250m1% L43[39;49m[2;3H[?12l[?25h[?12;25h[A[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m2[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   res.send res.random leaveReplies[K[24;31H[30m[48;5;250m39% L41[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # robot.leave (res) ->[K[24;37H[30m[48;5;250m0[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   res.send res.random enterReplies[K[24;32H[30m[48;5;250m8% L39[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # robot.enter (res) ->[K[24;32H[30m[48;5;250m7% L38[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m7[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # leaveReplies = ['Are you still there?', 'Target lost', 'Searching'][K[24;32H[30m[48;5;250m5% L36[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[2L[1;25r[1;1H[?25l  # enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha\
+[A
+', 'I see you'][K[24;32H[30m[48;5;250m2% L35[39;49m[2;3H[?12l[?25h[?12;25h[A[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m4[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[2;1H[1L[1;25r[2;1H[?25l  #[K[24;32H[30m[48;5;250m1% L33[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   res.send [38;5;89m"#{res.message.text}? That's a Paddlin'"[39;49m[K[24;32H[30m[48;5;250m0% L32[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # robot.topic (res) ->[K[24;31H[30m[48;5;250m29% L31[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m0[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   res.send res.random lulz[K[24;32H[30m[48;5;250m8% L29[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # robot.respond /lulz/i, (res) ->[K[24;32H[30m[48;5;250m7% L28[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m7[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # lulz = ['lol', 'rofl', 'lmao'][K[24;32H[30m[48;5;250m6% L26[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m5[39;49m[1;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[2;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[3;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[4;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[5;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m30[39;49m[6;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[7;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[8;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[9;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[10;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[11;3H[?12l[?25h[?12;25h
+[A[24;37H[?25l[30m[48;5;250m4[39;49m[10;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[9;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[8;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[7;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m0[39;49m[6;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m29[39;49m[5;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[4;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[5;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m30[39;49m[6;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[7;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m0[39;49m[6;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m29[39;49m[5;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[4;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[3;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[2;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   res.emote [38;5;89m"makes a freshly baked pie"[39;49m[K[24;32H[30m[48;5;250m4% L24[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # robot.hear /I like pie/i, (res) ->[K[24;32H[30m[48;5;250m3% L23[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m2[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #     res.reply [38;5;89m"Opening #{doorType} doors"[39;49m[K[24;32H[30m[48;5;250m2% L21[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   else[K[24;32H[30m[48;5;250m1% L20[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #     res.reply [38;5;89m"I'm afraid I can't let you do that."[39;49m[K[24;32H[30m[48;5;250m0% L19[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   if doorType is [38;5;89m"pod bay"[39;49m[K[24d[30m[48;5;250m19% L18[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   doorType = res.match[1][K[24;32H[30m[48;5;250m8% L17[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # robot.respond /open the (.*) doors/i, (res) ->[K[24;32H[30m[48;5;250m6% L16[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #[K[24;37H[30m[48;5;250m5[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  #   res.send [38;5;89m"Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"[39;49m[K[24;32H[30m[48;5;250m4% L14[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l  # robot.hear /badger/i, (res) ->[K[24;32H[30m[48;5;250m3% L13[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[K[24;37H[?25l[30m[48;5;250m2[39;49m[H[?12l[?25h[?12;25h[1;22r[2;1H[1L[1;25r[1;1H[?25lmodule.exports = (robot) ->
+[K[24;32H[30m[48;5;250m2% L11[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[K[24;37H[?25l[30m[48;5;250m0[39;49m[H[?12l[?25h[?12;25h[1;23r[2;1H[2L[1;25r[1;1H[?25l#   These are from the scripting documentation: https://github.com/github/hubot\
+/blob/master/docs/scripting.md[K
+[K[24;31H[30m[48;5;250m 9% L9 [39;49m[2;3H[?12l[?25h[?12;25h[A[1;23r[1;1H[1L[1;25r[1;1H[?25l#[K[24;36H[30m[48;5;250m8[39;49m[1;2H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l#   Uncomment the ones you want to try and experiment with.[K[24;32H[30m[48;5;250m7% L7[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l#   wouldn't be useful and amusing enough for day to day huboting.[K[24;32H[30m[48;5;250m5% L6[39;49m[1;3H[?12l[?25h[?12;25h[1;22r[1;1H[2L[1;25r[1;1H[?25l#   They are commented out by default, because most of them are pretty silly an\
+[A
+d[K[24;32H[30m[48;5;250m3% L5[39;49m[2;2H[?12l[?25h[?12;25h[1;3H[1;23r[1;1H[1L[1;25r[1;1H[?25l# Notes:[K[24;36H[30m[48;5;250m4[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l#[K[24;32H[30m[48;5;250m2% L3[39;49m[1;2H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l#   Example scripts for you to examine and try out.[K[24;32H[30m[48;5;250m1% L2[39;49m[1;3H[?12l[?25h[?12;25h[1;23r[1;1H[1L[1;25r[1;1H[?25l# Description:[K[24;31H[30m[48;5;250mTop L1[39;49m[1;3H[?12l[?25h[?12;25h[25;1H[?25lBeginning of buffer[1;3H[?12l[?25h[?12;25h[25;1H[K[24;36H[?25l[30m[48;5;250m2[39;49m[2;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m3[39;49m[3;2H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m4[39;49m[4;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m5[39;49m[5;3H[?12l[?25h[?12;25h
+[24;36H[?25l[30m[48;5;250m6[39;49m[7;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m7[39;49m[8;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m8[39;49m[9;2H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m9[39;49m[10;3H[?12l[?25h[?12;25h
+[24;36H[?25l[30m[48;5;250m10[39;49m[12;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[13;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[14;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[15;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[16;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[15;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[16;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[17;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m6[39;49m[18;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[19;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[20;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[21;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m20[39;49m[22;3H[?12l[?25h[?12;25h[?25l   else[K[22;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[23;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;31H[30m[48;5;250m 1% L22[39;49m[23;3H[?12l[?25h[?12;25h[K[C[C[1;22r[1;1H[1M[1;25r[22;1H[?25l[1m[33m[101m  [0m[39;49m[K
+# robot.hear /I like pie/i, (res) ->[24;32H[30m[48;5;250m2% L23[39;49m[23;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.emote [38;5;89m"makes a freshly baked pie"[39;49m[K[24;32H[30m[48;5;250m3% L24[39;49m[23;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m5[39;49m[23;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[22;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[21;3H[?12l[?25h[?12;25h[A[K[24;37H[?25l[30m[48;5;250m2[39;49m[20;3H[?12l[?25h[?12;25h[?25l[1m[33m[101m  [0m[39;49m[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[21;2H[?12l[?25h[?12;25h[C[24;37H[?25l[30m[48;5;250m4[39;49m[22;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # lulz = ['lol', 'rofl', 'lmao'][K
+[30m[48;5;250m5% L26[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m7[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /lulz/i, (res) ->[K
+[30m[48;5;250m7% L28[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.send res.random lulz[K
+	[30m[48;5;250m9% L29[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;36H[30m[48;5;250m30[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.topic (res) ->[K
+	[30m[48;5;250m11% L31[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[2;1H[1M[1;25r[1;1H[K[23d[?25l  #   res.send [38;5;89m"#{res.message.text}? That's a Paddlin'"[39;49m[K[24;32H[30m[48;5;250m2% L32[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m3[39;49m[23;3H[?12l[?25h[?12;25h[1;22r[2;1H[1M[1;25r[1;1H[K[22d[?25l  #[K[24;32H[30m[48;5;250m3% L34[39;49m[23;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[22;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[21;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[20;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m0[39;49m[19;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m29[39;49m[18;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[17;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[16;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[15;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[14;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[13;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[14;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m6[39;49m[15;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[16;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m8[39;49m[17;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[18;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m30[39;49m[19;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m1[39;49m[20;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[21;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[22;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m4[39;49m[23;3H[?12l[?25h[?12;25h[A[K[24;37H[?25l[30m[48;5;250m3[39;49m[22;3H[?12l[?25h[?12;25h[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m4[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha\
+[A[24;37H[30m[48;5;250m5[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l', 'I see you'][K
+			[30m[48;5;250m4[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # leaveReplies = ['Are you still there?', 'Target lost', 'Searching'][K[24;32H[30m[48;5;250m6% L36[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m7[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.enter (res) ->[K
+	[30m[48;5;250m8% L38[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.send res.random enterReplies[K[24;32H[30m[48;5;250m9% L39[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.leave (res) ->[K
+	[30m[48;5;250m20% L40[39;49m[23;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m39[39;49m[22;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[21;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[20;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[19;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[18;3H[?12l[?25h[?12;25h[A[24;37H[?25l[30m[48;5;250m4[39;49m[16;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m5[39;49m[17;3H[?12l[?25h[?12;25h[?25l enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha'
+[1P[17;3H[?12l[?25h[?12;25h
+[24;37H[?25l[30m[48;5;250m6[39;49m[19;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[20;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m8[39;49m[21;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[22;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m40[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.send res.random leaveReplies[K[24;32H[30m[48;5;250m1% L41[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K
+				[30m[48;5;250m2% L42[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # answer = process.env.HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIV\
+[A
+				[30m[48;5;250m3% L43[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25lERSE_AND_EVERYTHING[K[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K
+				[30m[48;5;250m4% L44[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /what is the answer to the ultimate question of life/, (res) \
+[A
+				[30m[48;5;250m6% L45[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l->[K[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   unless answer?[K
+		[30m[48;5;250m7% L46[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.send [38;5;89m"Missing HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNI[39;49m\
+[A[24;37H[30m[48;5;250m7[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l[38;5;89mVERSE_AND_EVERYTHING in environment: please set and try again"[39;49m[K[24;32H[30m[48;5;250m8[39;49m[23;3H[?12l[?25h[?12;25h[A[24;37H[?25l[30m[48;5;250m6[39;49m[21;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[20;3H[?12l[?25h[?12;25h[A[24;37H[?25l[30m[48;5;250m4[39;49m[18;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[17;3H[?12l[?25h[?12;25h[A[24;37H[?25l[30m[48;5;250m2[39;49m[15;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[14;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m0[39;49m[13;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[14;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[15;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m3[39;49m[16;3H[?12l[?25h[?12;25h[?25l answer = process.env.HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIVE
+[1P[16;3H[?12l[?25h[?12;25h
+[24;37H[?25l[30m[48;5;250m4[39;49m[18;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m5[39;49m[19;3H[?12l[?25h[?12;25h[?25l robot.respond /what is the answer to the ultimate question of life/, (res) -
+>[K[A[C[?12l[?25h[?12;25h
+[24;37H[?25l[30m[48;5;250m6[39;49m[21;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[22;3H[?12l[?25h[?12;25h[?25l     res.send [38;5;89m"Missing HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIV[39;49m
+[1P[22;3H[?12l[?25h[?12;25h
+[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     return[K
+			[30m[48;5;250m9% L48[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.send [38;5;89m"#{answer}, but what is the question?"[39;49m[K[24;37H[30m[48;5;250m9[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;31H[30m[48;5;250m30% L50[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /you are a little slow/, (res) ->[K[24;32H[30m[48;5;250m1% L51[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[2;1H[1M[1;25r[23;1H[?25l  #   setTimeout () ->[K[24;37H[30m[48;5;250m2[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.send [38;5;89m"Who you calling 'slow'?"[39;49m[K
+[30m[48;5;250m3[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   , 60 * 1000[K
+		[30m[48;5;250m4% L54[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m5[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # annoyIntervalId = null[K
+	[30m[48;5;250m6% L56[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m7[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /annoy me/, (res) ->[K[24;32H[30m[48;5;250m7% L58[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   if annoyIntervalId[K
+	[30m[48;5;250m8% L59[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.send [38;5;89m"AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"[39;49m[K[24;32H[30m[48;5;250m9% L60[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     return[K[24;31H[30m[48;5;250m40% L61[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m2[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.send [38;5;89m"Hey, want to hear the most annoying sound in the world?"[39;49m[K[24;32H[30m[48;5;250m3% L63[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   annoyIntervalId = setInterval () ->[K
+[30m[48;5;250m4[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.send [38;5;89m"AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"[39;49m[K[24;37H[30m[48;5;250m5[39;49m[23;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[22;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[21;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[20;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[19;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m0[39;49m[18;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m59[39;49m[17;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[16;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[15;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[14;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[13;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[12;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[11;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[10;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[9;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m0[39;49m[8;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m49[39;49m[7;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[6;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[7;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m50[39;49m[8;3H[?12l[?25h[?12;25h[K[8;3H[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m1[39;49m[9;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[10;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[11;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[12;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[13;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m6[39;49m[14;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[15;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m8[39;49m[16;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[17;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m60[39;49m[18;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[19;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[20;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m3[39;49m[21;3H[?12l[?25h[?12;25h[?25l[1P[24;32H[30m[48;5;250m4[39;49m[21;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[22;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[23;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   , 1000[K
+			[30m[48;5;250m6% L66[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m7[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /unannoy me/, (res) ->[K[24;32H[30m[48;5;250m7% L68[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   if annoyIntervalId[K
+	[30m[48;5;250m9% L69[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.send [38;5;89m"GUYS, GUYS, GUYS!"[39;49m[K
+[30m[48;5;250m51% L70[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     clearInterval(annoyIntervalId)[K
+[30m[48;5;250m1[39;49m[23;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m0[39;49m[22;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m69[39;49m[21;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[20;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[19;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[18;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[17;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[16;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[15;3H[?12l[?25h[?12;25h[A[K[24;37H[?25l[30m[48;5;250m2[39;49m[14;3H[?12l[?25h[?12;25h[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m3[39;49m[15;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[16;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[17;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[18;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[19;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m8[39;49m[20;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[21;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m70[39;49m[22;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     annoyIntervalId = null[K
+	[30m[48;5;250m3% L72[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   else[K[24;37H[30m[48;5;250m3[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.send [38;5;89m"Not annoying you right now, am I?"[39;49m[K[24;32H[30m[48;5;250m5% L74[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m5[39;49m[23;3H[?12l[?25h[?12;25h[1;22r[1;1H[1M[1;25r[22;1H[?25l  #[K[24;32H[30m[48;5;250m7% L76[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.router.post '/hubot/chatsecrets/:room', (req, res) ->[K[24;37H[30m[48;5;250m7[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   room   = req.params.room[K[24;37H[30m[48;5;250m8[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   data   = JSON.parse req.body.payload[K[24;32H[30m[48;5;250m8% L79[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   secret = data.secret[K[24;36H[30m[48;5;250m80[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K
+				[30m[48;5;250m9% L81[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   robot.messageRoom room, [38;5;89m"I have a secret: #{secret}"[39;49m[K[24;31H[30m[48;5;250m60% L82[39;49m[23;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[22;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m0[39;49m[21;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m79[39;49m[20;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[19;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[18;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[17;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[16;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[15;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[14;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[13;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[12;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[13;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[14;3H[?12l[?25h[?12;25h[?25l   else[K[14;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[15;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[16;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m6[39;49m[17;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m7[39;49m[18;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[19;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[20;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m80[39;49m[21;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[22;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m2[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K
+				[30m[48;5;250m2% L83[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.send 'OK'[K
+		[30m[48;5;250m3% L84[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m5[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.error (err, res) ->[K
+	[30m[48;5;250m5% L86[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   robot.logger.error [38;5;89m"DOES NOT COMPUTE"[39;49m[K[24;32H[30m[48;5;250m6% L87[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K
+				[30m[48;5;250m8% L88[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   if res?[K
+			[30m[48;5;250m9% L89[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.reply [38;5;89m"DOES NOT COMPUTE"[39;49m[K
+[30m[48;5;250m90[39;49m[23;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m89[39;49m[22;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[21;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[20;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[19;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[18;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[17;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[16;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[15;3H[?12l[?25h[?12;25h[A[K[24;37H[?25l[30m[48;5;250m1[39;49m[14;3H[?12l[?25h[?12;25h[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m2[39;49m[15;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[16;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m4[39;49m[17;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[18;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m6[39;49m[19;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[20;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[21;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m9[39;49m[22;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m90[39;49m[23;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;31H[30m[48;5;250m70% L91[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /have a soda/i, (res) ->[K[24;32H[30m[48;5;250m1% L92[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   # Get number of sodas had (coerced to a number).[K[24;32H[30m[48;5;250m2% L93[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   sodasHad = robot.brain.get('totalSodas') * 1 or 0[K[24;32H[30m[48;5;250m3% L94[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K
+				[30m[48;5;250m4% L95[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   if sodasHad > 4[K[24;37H[30m[48;5;250m6[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.reply [38;5;89m"I'm too fizzy.."[39;49m[K
+[30m[48;5;250m6% L97[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[2;1H[1M[1;25r[23;1H[?25l  #[K[24;37H[30m[48;5;250m8[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   else[K[24;37H[30m[48;5;250m9[39;49m[23;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[22;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[21;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[20;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[19;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m4[39;49m[18;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[17;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[16;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[15;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m0[39;49m[14;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m89[39;49m[13;3H[?12l[?25h[?12;25h[24;36H[?25l[30m[48;5;250m90[39;49m[14;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[15;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[16;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[1P[24;37H[?25l[30m[48;5;250m3[39;49m[17;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[16;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m1[39;49m[15;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m2[39;49m[16;3H[?12l[?25h[?12;25h[1@[C[24;37H[?25l[30m[48;5;250m3[39;49m[17;4H[?12l[?25h[?12;25h[17;5H[4P[3@[24;37H[?25l[30m[48;5;250m4[39;49m[18;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m5[39;49m[19;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m6[39;49m[20;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[21;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[22;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;37H[30m[48;5;250m9[39;49m[23;3H[?12l[?25h[?12;25h[?25l   else[K[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     res.reply 'Sure!'[K
+	[30m[48;5;250m8% L100[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K
+				[30m[48;5;250m9% L101[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #     robot.brain.set 'totalSodas', sodasHad+1[K[24;31H[30m[48;5;250m81% L102[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #[K[24;38H[30m[48;5;250m3[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  # robot.respond /sleep it off/i, (res) ->[K
+[30m[48;5;250m4[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   robot.brain.set 'totalSodas', 0[K
+[30m[48;5;250m3% L105[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  #   res.reply 'zzzzz'[K[24;38H[30m[48;5;250m6[39;49m[23;3H[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[K[24;31H[?25l[30m[48;5;250mBot L107[39;49m[23;3H[?12l[?25h[?12;25h
+
+[?25lEnd of buffer[23;3H[?12l[?25h[?12;25h
+
+[K[23d[?25l[38;5;124m[43m  [39;49m[24;38H[30m[48;5;250m6[39;49m[22;3H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m5[39;49m[21;3H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m4[39;49m[20;3H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m3[39;49m[19;3H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m2[39;49m[18;3H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m1[39;49m[17;3H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m0[39;49m[16;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m1[39;49m[17;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;38H[30m[48;5;250m2[39;49m[18;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m3[39;49m[19;3H[?12l[?25h[?12;25h[K[C[C[?25l[1m[33m[101m  [0m[39;49m[24;38H[30m[48;5;250m4[39;49m[20;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m5[39;49m[21;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m6[39;49m[22;3H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h
+
+
+[?25lSaving file /Users/keisei/hellobot/scripts/example.coffee...[22;3H[?12l[?25h[?12;25h
+
+
+[?25lWrote /Users/keisei/hellobot/scripts/example.coffee[K[22;3H[?12l[?25h[?12;25h
+
+
+[?25l保存しました[K[22;3H[?12l[?25h[?12;25h[24;6H[?25l[30m[48;5;250m--[39;49m[22;3H[?12l[?25h[?12;25h
+
+
+[K[22;3H
+
+
+[?25l(No files need saving)[22;3H[?12l[?25h[?12;25h
+
+
+[K[?1l>[?12l[?25h[?1049l[39;49m[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:07:51[00m [35m[00m[00m[00m[68D[?1h=elsbin/hubot[?1l>
+]2;bin/hubot]1;bin/hubot[1G[0Jhellobot> [11G[Wed May 13 2015 18:07:56 GMT+0900 (JST)] INFO /Users/keisei/hellobot/scripts/helloworld.coffee is using deprecated documentation syntax
+[Wed May 13 2015 18:07:56 GMT+0900 (JST)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Wed May 13 2015 18:07:56 GMT+0900 (JST)] INFO Using default redis on localhost:6379
+
+[1G[0Jhellobot> [11Ghello
+[1G[0Jhellobot> [11GHubot hello
+[1G[0Jhellobot> [11Gsleep
+[1G[0Jhellobot> [11G[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:08:58[00m [35m[00m[00m[00m[68D[?1h=bin/hubot[9De        [8Dbin/hubot[9D         [9Dbin/hubot[?1l>
+]2;bin/hubot]1;bin/hubot[1G[0Jhellobot> [11G[Wed May 13 2015 18:09:03 GMT+0900 (JST)] INFO /Users/keisei/hellobot/scripts/helloworld.coffee is using deprecated documentation syntax
+[Wed May 13 2015 18:09:03 GMT+0900 (JST)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Wed May 13 2015 18:09:03 GMT+0900 (JST)] INFO Using default redis on localhost:6379
+b[1G[0Jhellobot> [11G
+[1G[0Jhellobot> [11Gbadger
+[32m[1mBadgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS[22m[39m
+[1G[0Jhellobot> [11G  [1G[0Jhellobot>  [12G[1G[0Jhellobot> [11GI like pie
+[32m[1m* makes a freshly baked pie[22m[39m
+[1G[0Jhellobot> [11Gtopic
+[1G[0Jhellobot> [11GHi
+[1G[0Jhellobot> [11Gyou are a littele slo[1G[0Jhellobot> you are a littele sl[31G[1G[0Jhellobot> you are a littele s[30G[1G[0Jhellobot> you are a littele [29G[1G[0Jhellobot> you are a littele[28G[1G[0Jhellobot> you are a littel[27G[1G[0Jhellobot> you are a litte[26G[1G[0Jhellobot> you are a litt[25G[1G[0Jhellobot> you are a lit[24Gtle slow
+[1G[0Jhellobot> [11G[1G[0Jhellobot> you are a little slow[32G, ?
+[1G[0Jhellobot> [11Gannoy me
+[1G[0Jhellobot> [11GHey, want to hear the most annoying sound in the world?
+[1G[0Jhellobot> [11G
+[1G[0Jhellobot> [11G
+[1G[0Jhellobot> [11G
+[1G[0Jhellobot> [11Gunannoy e
+[1G[0Jhellobot> [11G[1G[0Jhellobot> unannoy e[20G[1G[0Jhellobot> unannoy [19Gme
+[1G[0Jhellobot> [11G[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:10:15[00m [35m[00m[00m[00m[68D[?1h=bin/hubot[?1l>
+]2;bin/hubot]1;bin/hubot
+
+[1G[0Jhellobot> [11G[Wed May 13 2015 18:10:18 GMT+0900 (JST)] INFO /Users/keisei/hellobot/scripts/helloworld.coffee is using deprecated documentation syntax
+[Wed May 13 2015 18:10:18 GMT+0900 (JST)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Wed May 13 2015 18:10:18 GMT+0900 (JST)] INFO Using default redis on localhost:6379
+
+[1G[0Jhellobot> [11Gunannoy me
+[1G[0Jhellobot> [11GI like a pie
+[1G[0Jhellobot> [11G[1G[0Jhellobot> I like a pie[23G[1D[1D[1D[1D[1G[0Jhellobot> I like  pie[18G[1G[0Jhellobot> I like pie[17G[4C
+[32m[1m* makes a freshly baked pie[22m[39m
+[1G[0Jhellobot> [11GHello
+[1G[0Jhellobot> [11GHubot hello
+[1G[0Jhellobot> [11G[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:10:40[00m [35m[00m[00m[00m[68D[?1h=bin/hubot[9De        [8Dbin/hubot[?1l>
+]2;bin/hubot]1;bin/hubot[1G[0Jhellobot> [11G[Wed May 13 2015 18:11:35 GMT+0900 (JST)] INFO /Users/keisei/hellobot/scripts/helloworld.coffee is using deprecated documentation syntax
+[Wed May 13 2015 18:11:35 GMT+0900 (JST)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Wed May 13 2015 18:11:35 GMT+0900 (JST)] INFO Using default redis on localhost:6379
+
+[1G[0Jhellobot> [11Ghello
+[32m[1mworld[22m[39m
+[1G[0Jhellobot> [11Ghello
+[32m[1mworld[22m[39m
+[1G[0Jhellobot> [11Gexit
+[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:11:47[00m [35m[00m[00m[00m[68D[?1h=bin/hubot[?1l>
+]2;bin/hubot]1;bin/hubot[1G[0Jhellobot> [11G[Wed May 13 2015 18:14:15 GMT+0900 (JST)] INFO /Users/keisei/hellobot/scripts/helloworld.coffee is using deprecated documentation syntax
+[Wed May 13 2015 18:14:15 GMT+0900 (JST)] INFO /Users/keisei/hellobot/scripts/slack-hello.coffee is using deprecated documentation syntax
+[Wed May 13 2015 18:14:15 GMT+0900 (JST)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Wed May 13 2015 18:14:16 GMT+0900 (JST)] INFO Using default redis on localhost:6379
+
+[1G[0Jhellobot> [11G@hubot[1G[0Jhellobot> @hubo[16G[1G[0Jhellobot> @hub[15G[1G[0Jhellobot> @hu[14G[1G[0Jhellobot> @h[13G[1G[0Jhellobot> @[12G[1G[0Jhellobot> [11Ghubot @hubot hello
+[32m[1mworld![22m[39m
+[32m[1mHello, Shell[22m[39m
+[1G[0Jhellobot> [11G[1G[0Jhellobot> hubot @hubot hello[29G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[10C[1G[0Jhellobot> hubot @hubot hell[28G[1G[0Jhellobot> hubot @hubot hel[27G[1G[0Jhellobot> hubot @hubot he[26G[1G[0Jhellobot> hubot @hubot h[25G[1G[0Jhellobot> hubot @hubot [24GHELLO
+[32m[1mworld![22m[39m
+[32m[1mHello, Shell[22m[39m
+[1G[0Jhellobot> [11G[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[59C[32m18:14:35[00m [35m[00m[00m[00m[68D[?1h=eeie exit[?1l>
+]2;exit]1;exit
+Script done on Wed May 13 20:04:49 2015
