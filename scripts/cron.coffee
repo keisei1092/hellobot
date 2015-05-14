@@ -5,9 +5,9 @@
 #   cron configs
 #
 
-CronJob = require('cron').CronJob
+cronJob = require('cron').CronJob
 
 module.exports = (robot) ->
-  new CronJob '0 0,3,12,15,18,21 * *', () =>
-    robot.messageRoom "general", "進捗どうですか"
+  new CronJob '00 00 00,03,12,15,18,21 * * *', () =>
+    robot.send { room: "general" }, "進捗どうですか"
   , null, true, "Asia/Tokyo"
