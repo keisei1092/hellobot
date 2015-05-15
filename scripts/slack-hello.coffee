@@ -21,3 +21,6 @@
 
   robot.hear /進捗ダメです/i, (msg) ->
     msg.send "がんばって👏🐤🔥"
+
+  robot.hear /✎/i, (msg) ->
+    msg.send "ふむふむ✎"
