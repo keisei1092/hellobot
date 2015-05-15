@@ -20,4 +20,341 @@ Script started on Fri May 15 12:26:54 2015
 ]2;ls -G -a]1;ls[36m.[39;49m[0m                  cron.coffee        slack-hello.coffee
 [36m..[39;49m[0m                 example.coffee
 [1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot/scripts]1;..lobot/scripts[0m[27m[24m[J[35m[scripts] [00m[K[46C[32m12:27:02[00m [35m ☁  [31mmaster[33m ☂[00m[00m[33m ⚡[00m[00m[69D[?1h=...[?1l>
-]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[45C[32m12:27:08[00m [35m ☁  [31mmaster[33m ☂[00m[00m[33m ⚡[00m[00m[68D[?1h=ggit add . && git commit[1m [0m[0m -m ""
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[45C[32m12:27:08[00m [35m ☁  [31mmaster[33m ☂[00m[00m[33m ⚡[00m[00m[68D[?1h=ggit add . && git commit[1m [0m[0m -m "" [1C"    [?1l>
+]2;git add . && git commit]1;git[?1049h[?1h=[1;25r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[25;1H"~/hellobot/.git/COMMIT_EDITMSG" 10L, 302C[>c[2;1H# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#       modified:   scripts/slack-hello.coffee
+#       modified:   typescript
+#
+[94m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [1;1H[?12l[?25h[?25l[m[25;1H[1m-- INSERT --[m[25;13H[K[1;1H[?12l[?25h[?25lc[?12l[?25h[?25l[1;1H[K[1;1H[?12l[?25h[?25lC[?12l[?25h[?25lCh[?12l[?25h[?25lha[?12l[?25h[?25lan[?12l[?25h[?25lng[?12l[?25h[?25lge[?12l[?25h[?25l [?12l[?25h[?25l u[?12l[?25h[?25lus[?12l[?25h[?25lse[?12l[?25h[?25ler[?12l[?25h[?25lrn[?12l[?25h[?25lna[?12l[?25h[?25lam[?12l[?25h[?25lme[?12l[?25h[?25l husername[1;9H[?12l[?25h[?25luusername[1;10H[?12l[?25h[?25lubusername[1;11H[?12l[?25h[?25lbousername[1;12H[?12l[?25h[?25lotusername[1;13H[?12l[?25h[?25lt username[1;14H[?12l[?25huser[?25lename[1;21H[K[1;17H[?12l[?25h[?25lsname[1;20H[K[1;16H[?12l[?25h[?25luname[1;19H[K[1;15H[?12l[?25h[?25l name[1;18H[K[1;14H[?12l[?25h[25;1H[K[1;13H[?25l[?12l[?25h[?25l[25;1H:[?12l[?25hwq[?25l".git/COMMIT_EDITMSG" 10L, 319C written
+[?1l>[?12l[?25h[?1049l[master dd3ed89] Change hubot name
+ 2 files changed, 28 insertions(+), 593 deletions(-)
+ rewrite typescript (98%)
+[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[43C[32m12:27:46[00m [35m ☁  [31mmaster[32m ☀[00m[00m[34m 𝝙[00m[34m 𝝙[00m[68D[?1h=ggit push[1m [0m[?1049h[?1h=[?25l[H[2J(B[m[1m[7m[25;65HRunning query...(B[m[1;1HQUERY>[1;8Hgit[1;12Hpush(B[m[7m[1;17H (B[m[1;61HIgnoreCase[1;72H[3[1;75H(1/1)](B[m[36;45m[2;1Hgit(B[m[45m[4m (B[m[36;45mpush(B[m[45m[4m origin master && (B[m[36;45mgit(B[m[45m[4m (B[m[36;45mpush(B[m[45m[4m heroku master                                (B[m[36m[3;1Hgit[3;5Hpush(B[m[3;10Horigin[3;17Hmaster[3;24H&&(B[m[36m[3;27Hgit[3;31Hpush(B[m[3;36Hheroku[3;43Hmaster(B[m[36m[4;1Hgit[4;5Hpush(B[m[4;10Horigin[4;17Hmaster[4;24H&&(B[m[36m[4;27Hgit[4;31Hpush(B[m[4;36Hheroku[4;43Hmaster(B[m[36m[5;1Hgit[5;5Hpush(B[m[5;10Horigin[5;17Hmaster[5;24H&&(B[m[36m[5;27Hgit[5;31Hpush(B[m[5;36Hheroku[5;43Hmaster(B[m[36m[6;1Hgit[6;5Hpush(B[m[6;10Horigin[6;17Hmaster[6;24H&&(B[m[36m[6;27Hgit[6;31Hpush(B[m[6;36Hheroku[6;43Hmaster(B[m[36m[7;1Hgit[7;5Hpush(B[m[7;10Hheroku[7;17Hmaster(B[m[36m[8;1Hgit[8;5Hpush(B[m[8;10Horigin[8;17Hmaster(B[m[36m[9;1Hgit[9;5Hpush(B[m[9;10Hheroku[9;17Hmaster(B[m[36m[10;1Hgit[10;5Hpush(B[m[10;10Horigin[10;17Hmaster[25;65H                [1;60HIgnoreCase [20(B[m[36m[11;1Hgit[11;5Hpush(B[m[11;10Hheroku[11;17Hmaster(B[m[36m[12;1Hgit[12;5Hpush(B[m[12;10Horigin[12;17Hmaster(B[m[36m[13;1Hgit[13;5Hpush(B[m[13;10Hheroku[13;17Hmaster(B[m[36m[14;1Hgit[14;5Hpush(B[m[14;10H-u[14;13Horigin[14;20Hmaster(B[m[36m[15;1Hgit[15;5Hpush(B[m[15;10Hheroku[15;17Hmaster(B[m[36m[16;1Hgit[16;5Hpush(B[m[16;10H-u[16;13Horigin[16;20Hmaster(B[m[36m[17;1Hgit[17;5Hpush(B[m[17;10Hheroku[17;17Hmaster(B[m[36m[18;1Hgit[18;5Hpush(B[m[18;10H-u[18;13Horigin[18;20Hmaster(B[m[36m[19;1Hgit[19;5Hpush(B[m[19;10Hheroku[19;17Hmaster(B[m[36m[20;1Hgit[20;5Hpush(B[m[20;10Horigin[20;17Hmaster(B[m[36m[21;1Hgit[21;5Hpush(B[m[21;10H-u[21;13Horigin[21;20Hmaster(B[m[1m[7m[25;65HRunning query...(B[m[1;60H IgnoreCase [3[11;1H   [11;5H    [11;10H      [11;17H      [12;1H   [12;5H    [12;10H      [12;17H      [13;1H   [13;5H    [13;10H      [13;17H      [14;1H   [14;5H    [14;10H  [14;13H      [14;20H      [15;1H   [15;5H    [15;10H      [15;17H      [16;1H   [16;5H    [16;10H  [16;13H      [16;20H      [17;1H   [17;5H    [17;10H      [17;17H      [18;1H   [18;5H    [18;10H  [18;13H      [18;20H      [19;1H   [19;5H    [19;10H      [19;17H      [20;1H   [20;5H    [20;10H      [20;17H      [21;1H   [21;5H    [21;10H  [21;13H      [21;20H      [1;60HIgnoreCase [20(B[m[36m[11;1Hgit[11;5Hpush(B[m[11;10Hheroku[11;17Hmaster(B[m[36m[12;1Hgit[12;5Hpush(B[m[12;10Horigin[12;17Hmaster(B[m[36m[13;1Hgit[13;5Hpush(B[m[13;10Hheroku[13;17Hmaster(B[m[36m[14;1Hgit[14;5Hpush(B[m[14;10H-u[14;13Horigin[14;20Hmaster(B[m[36m[15;1Hgit[15;5Hpush(B[m[15;10Hheroku[15;17Hmaster(B[m[36m[16;1Hgit[16;5Hpush(B[m[16;10H-u[16;13Horigin[16;20Hmaster(B[m[36m[17;1Hgit[17;5Hpush(B[m[17;10Hheroku[17;17Hmaster(B[m[36m[18;1Hgit[18;5Hpush(B[m[18;10H-u[18;13Horigin[18;20Hmaster(B[m[36m[19;1Hgit[19;5Hpush(B[m[19;10Hheroku[19;17Hmaster(B[m[36m[20;1Hgit[20;5Hpush(B[m[20;10Horigin[20;17Hmaster(B[m[36m[21;1Hgit[21;5Hpush(B[m[21;10H-u[21;13Horigin[21;20Hmaster(B[m[36m[22;1Hgit[22;5Hpush(B[m[22;10Hheroku[22;17Hmaster(B[m[36m[23;1Hgit[23;5Hpush(B[m[23;10Hheroku[23;17Hmaster(B[m[36m[24;1Hgit[24;5Hpush(B[m[24;10Horigin[24;17Hmaster[1;72H39[1;78H2[1;72H46[1;73H9[1;78H3[25;65H                (B[m[1m[7m[25;76HEnter[?12l[?25h(B[m[H[2J[?1049l[?1l>[?1000l[H[2J[0m[27m[24m[J[35m[hellobot] [00mgit push origin master && git push heroku master[K[?1l>
+]2;git push origin master && git push heroku master]1;gitCounting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 951 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+To git@github.com:keisei1092/hellobot.git
+   73e2238..dd3ed89  master -> master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 951 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Compressing source files... done.[K
+remote: Building source:[K
+remote: 
+remote: -----> Node.js app detected[K
+remote: 
+remote: -----> Reading application state[K
+remote:        package.json...[K
+remote:        build directory...[K
+remote:        cache directory...[K
+remote:        environment variables...[K
+remote: 
+remote:        Node engine:         0.10.x[K
+remote:        Npm engine:          unspecified[K
+remote:        Start mechanism:     Procfile[K
+remote:        node_modules source: package.json[K
+remote:        node_modules cached: true[K
+remote: 
+remote:        NPM_CONFIG_PRODUCTION=true[K
+remote:        NODE_MODULES_CACHE=true[K
+remote: 
+remote: -----> Installing binaries[K
+remote:        Resolving node version 0.10.x via semver.io...[K
+remote:        Downloading and installing node 0.10.38...[K
+remote:        Using default npm version: 1.4.28[K
+remote: 
+remote: -----> Building dependencies[K
+remote:        Restoring node modules from cache[K
+remote:        Pruning unused dependencies[K
+remote:        valid[K
+remote:        Installing node modules[K
+remote: 
+remote: -----> Checking startup method[K
+remote:        Found Procfile[K
+remote: 
+remote: -----> Finalizing build[K
+remote:        Creating runtime environment[K
+remote:        Exporting binary paths[K
+remote:        Cleaning npm artifacts[K
+remote:        Cleaning previous cache[K
+remote:        Caching results for future builds[K
+remote: 
+remote: -----> Build succeeded![K
+remote: 
+remote:        hellobot@0.0.0 /tmp/build_24842d96ed71f374974fb503f2395612[K
+remote:        ├── cron@1.0.9[K
+remote:        ├── hubot@2.12.0[K
+remote:        ├── hubot-diagnostics@0.0.1[K
+remote:        ├── hubot-google-images@0.1.4[K
+remote:        ├── hubot-google-translate@0.1.0[K
+remote:        ├── hubot-help@0.1.1[K
+remote:        ├── hubot-heroku-keepalive@0.0.4[K
+remote:        ├── hubot-maps@0.0.2[K
+remote:        ├── hubot-pugme@0.1.0[K
+remote:        ├── hubot-redis-brain@0.0.2[K
+remote:        ├── hubot-rules@0.1.0[K
+remote:        ├── hubot-scripts@2.5.16[K
+remote:        ├── hubot-shipit@0.2.0[K
+remote:        ├── hubot-slack@3.3.0[K
+remote:        ├── hubot-youtube@0.1.2[K
+remote:        └── time@0.11.2[K
+remote:        [K
+remote: -----> Discovering process types[K
+remote:        Procfile declares types -> web[K
+remote: 
+remote: -----> Compressing... done, 8.0MB[K
+remote: -----> Launching... done, v16[K
+remote:        https://keisei-1092-hubot.herokuapp.com/ deployed to Heroku[K
+remote: 
+remote: Verifying deploy... done.[K
+To https://git.heroku.com/keisei-1092-hubot.git
+   73e2238..dd3ed89  master -> master
+[1m[7m%[27m[1m[0m                                                                                ]2;keisei@kps-MacBook-Air: ~/hellobot]1;~/hellobot[0m[27m[24m[J[35m[hellobot] [00m[K[45C[32m12:28:04[00m [35m ☁  [31mmaster[33m ☂[00m[00m[33m ⚡[00m[00m[68D[?1h=eemacs package.json[?1l>
+]2;emacs package.json]1;emacs[?1049h[?12;25h[?1h=[H[2J[25d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[25d[?25lfpowerline")[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ---------------------------[39;49m
+[A
+Eager macro-expansion failure: (error "Autoloading failed to define function de\
+[A[2d[?12l[?25h[?12;25h[25d[?25lne")[K[Arror: (file-error "Cannot open load file" "no such file or directory" "powerli[H
+[?12l[?25h[?12;25h[H[2J[25d[K[A[?25lLoading css-mode...[K[H[?12l[?25h[?12;25h[24;20H[?25ldone[H[?12l[?25h[?12;25h[>0c[25d[K[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[?25l[30m[48;5;250m-UUU:**--F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction RBlock WS) ------------[39;49m
+[A
+Loading css-mode...done[K[H[?12l[?25h[?12;25h[1;24r[23;1H[1L[1;25r[25;1H[?25lFor information about GNU Emacs and the GNU system, type <f1> C-a.[23;1H[K[H[?12l[?25h[?12;25h[25d[?25lFor information about GNU Emacs and the GNU system, type <f1> C-a.[K[H{[K
+  [38;5;89m"name"[39;49m: [38;5;89m"hellobot"[39;49m,[K
+  [38;5;89m"version"[39;49m: [38;5;89m"0.0.0"[39;49m,[K
+  [38;5;89m"private"[39;49m: [38;5;30mtrue[39;49m,[K
+  [38;5;89m"author"[39;49m: [38;5;89m"keisei1092 <keisei_1092@yahoo.co.jp>"[39;49m,[K
+  [38;5;89m"description"[39;49m: [38;5;89m"A simple helpful robot for your Company"[39;49m,[K
+  [38;5;89m"dependencies"[39;49m: {[K
+    [38;5;89m"cron"[39;49m: [38;5;89m"^1.0.9"[39;49m,[K
+    [38;5;89m"hubot"[39;49m: [38;5;89m"^2.12.0"[39;49m,[K
+    [38;5;89m"hubot-diagnostics"[39;49m: [38;5;89m"0.0.1"[39;49m,[K
+    [38;5;89m"hubot-google-images"[39;49m: [38;5;89m"^0.1.4"[39;49m,[K
+    [38;5;89m"hubot-google-translate"[39;49m: [38;5;89m"^0.1.0"[39;49m,[K
+    [38;5;89m"hubot-help"[39;49m: [38;5;89m"^0.1.1"[39;49m,[K
+    [38;5;89m"hubot-heroku-keepalive"[39;49m: [38;5;89m"0.0.4"[39;49m,[K
+    [38;5;89m"hubot-maps"[39;49m: [38;5;89m"0.0.2"[39;49m,[K
+    [38;5;89m"hubot-pugme"[39;49m: [38;5;89m"^0.1.0"[39;49m,[K
+    [38;5;89m"hubot-redis-brain"[39;49m: [38;5;89m"0.0.2"[39;49m,[K
+    [38;5;89m"hubot-rules"[39;49m: [38;5;89m"^0.1.0"[39;49m,[K
+    [38;5;89m"hubot-scripts"[39;49m: [38;5;89m"^2.5.16"[39;49m,[K
+    [38;5;89m"hubot-shipit"[39;49m: [38;5;89m"^0.2.0"[39;49m,[K
+    [38;5;89m"hubot-slack"[39;49m: [38;5;89m"^3.3.0"[39;49m,[K
+    [38;5;89m"hubot-youtube"[39;49m: [38;5;89m"^0.1.2"[39;49m,[K
+    [38;5;89m"time"[39;49m: [38;5;89m"^0.11.2"[39;49m[K
+[30m[48;5;250m-UU-:----F1  [39;49m[1m[30m[48;5;250mpackage.json[0m[39;49m[30m[48;5;250m   Top L1    Git-master  (Javascript RBlock WS) -------[39;49m
+[A[H[?12l[?25h[?12;25h[25d[K[24;34H[?25l[30m[48;5;250m2    Git-master  (Javascript WS) -------[39;49m[H
+[?12l[?25h[?12;25h[24;34H[?25l[30m[48;5;250m3[39;49m[H
+
+[?12l[?25h[?12;25h[24;34H[?25l[30m[48;5;250m4[39;49m[4;1H[?12l[?25h[?12;25h[24;34H[?25l[30m[48;5;250m5[39;49m[5;1H[?12l[?25h[?12;25h[24;34H[?25l[30m[48;5;250m6[39;49m[6;1H[?12l[?25h[?12;25h[24;34H[?25l[30m[48;5;250m7[39;49m[7;1H[?12l[?25h[?12;25h[24;34H[?25l[30m[48;5;250m8[39;49m[8;1H[?12l[?25h[?12;25h[24;34H[?25l[30m[48;5;250m9[39;49m[9;1H[?12l[?25h[?12;25h[24;34H[?25l[30m[48;5;250m10[39;49m[10;1H[?12l[?25h[?12;25h[24;34H[?25l[30m[48;5;250m9 [39;49m[9;1H[?12l[?25h[?12;25h[24;34H[?25l[30m[48;5;250m10[39;49m[10;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m1[39;49m[11;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m2[39;49m[12;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m3[39;49m[13;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m4[39;49m[14;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m5[39;49m[15;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m6[39;49m[16;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m7[39;49m[17;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m8[39;49m[18;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m9[39;49m[19;1H[?12l[?25h[?12;25h[24;34H[?25l[30m[48;5;250m20[39;49m[20;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m1[39;49m[21;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m2[39;49m[22;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m3[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  },[K[24;29H[30m[48;5;250m 1% L24[39;49m[A[?12l[?25h[?12;25h[1;23r[1;1H[1M[1;25r[23;1H[?25l  [38;5;89m"engines"[39;49m: {[K[24;30H[30m[48;5;250m4% L25[39;49m[A[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m4[39;49m[22;1H[?12l[?25h[?12;25h[24;35H[?25l[30m[48;5;250m3[39;49m[21;1H[?12l[?25h[?12;25h[21;22H[21;5H[2@
+[K[23;3H[?25l},[K
+[C[30m[48;5;250m**--F1  [39;49m[1m[30m[48;5;250mpackage.json[0m[39;49m[30m[48;5;250m    4% L24[39;49m[22;7H[?12l[?25h[?12;25h[?25l[38;5;89m"                                                                         [39;49m
+[38;5;89m  },                                                                            [39;49m
+[22;8H[?12l[?25h[?12;25h[K
+[?25l  },[K[22;7H[?12l[?25h[?12;25h[?25l[1m[33m[101m      [0m[39;49m[24;35H[30m[48;5;250m3[39;49m[21;7H[?12l[?25h[?12;25h			[?25l,[?12l[?25h[?12;25h
+[K
+[?25l[1m[33m[101m      [0m[39;49m[24;35H[30m[48;5;250m4[39;49m[22;7H[?12l[?25h[?12;25h[?25l[1m[33m[101m      [0m[39;49m[24;35H[30m[48;5;250m3[39;49m[21;7H[?12l[?25h[?12;25h[1P[1P[24;35H[?25l[30m[48;5;250m4[39;49m[22;5H[?12l[?25h[?12;25h[K	[?25l[1m[33m[101m      [0m[39;49m
+  },[K[24;35H[30m[48;5;250m3[39;49m[21;23H[?12l[?25h[?12;25h
+[K[24;35H[?25l[30m[48;5;250m4[39;49m[22;7H[?12l[?25h[?12;25h[?25l[38;5;89m"                                                                           [39;49m
+[38;5;89m  },                                                                            [39;49m
+[22;6H[?12l[?25h[?12;25h[?25l[38;5;89mt[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mu[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mm[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mb[39;49m[?12l[?25h[?12;25h[?25l[38;5;89ml[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mr[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mb[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mo[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mt[39;49m[?12l[?25h[?12;25h[?25l[38;5;89m"[39;49m[K
+  },[K[A		[?12l[?25h[?12;25h[22;5H[2@[22;18H[?25l:[?12l[?25h[?12;25h[C[?25l[38;5;89m"                                                            [39;49m
+[38;5;89m  },                                                                            [39;49m
+[22;21H[?12l[?25h[?12;25h[?25l[38;5;89m0[39;49m[?12l[?25h[?12;25h[?25l[38;5;89m,[39;49m[?12l[?25h[?12;25h[?25l[38;5;89m1[39;49m[?12l[?25h[?12;25h[?25l[38;5;89m [39;49m[?12l[?25h[?12;25h[?25l[38;5;89m [39;49m[?12l[?25h[?12;25h[?25l[38;5;89m.[39;49m[?12l[?25h[?12;25h[?25l[38;5;89m1[39;49m[?12l[?25h[?12;25h[?25l[38;5;89m.[39;49m[?12l[?25h[?12;25h[?25l[38;5;89m2[39;49m[?12l[?25h[?12;25h[?25l[38;5;89m [39;49m[?12l[?25h[?12;25h[?25l[38;5;89m0[39;49m[?12l[?25h[?12;25h[?25l[38;5;89m"[39;49m[K
+  },[K[22;27H[?12l[?25h[?12;25h	[1P[1P
+
+
+[?25lSaving file /Users/keisei/hellobot/package.json...[22;5H[?12l[?25h[?12;25h
+
+
+[?25lWrote /Users/keisei/hellobot/package.json[K[22;5H[?12l[?25h[?12;25h
+
+
+[?25l保存しました[K[22;5H[?12l[?25h[?12;25h
+
+[C[?25l[30m[48;5;250m----F1  [39;49m[1m[30m[48;5;250mpackage.json[0m[39;49m[30m[48;5;250m    4% L24   Git:[39;49m[22;5H[?12l[?25h[?12;25h
+
+
+[K[22;5H
+
+
+[?25l[38;5;20mFind file or URL: [39;49m~/hellobot/[?12l[?25h[?12;25h[?25lls does not support --dired; see `dired-use-ls-dired' for more details.[22;5H[?12l[?25h[?12;25h[1;3H[?25l[38;5;28m/Users/keisei/hellobot[39;49m:[2;3Htotal used in directory 120 available 3007760[3;3Hdrwxr-xr-x   15 keisei  staff   510B May 15 12:45 [38;5;21m./[39;49m[4;3Hdrwxr-xr-x@ 114 keisei  staff   3.8K May 15 12:44 [38;5;21m../[39;49m[K[5;3H-rw-r--r--    1 keisei  staff   197B Oct 22  2014 .editorconfig[6;3Hdrwxr-xr-x   12 keisei  staff   408B May 15 12:28 [38;5;21m.git/[39;49m[7;3H-rw-r--r--    1 keisei  staff    39B Dec 20 07:57 .gitignore[8;3H-rw-r--r--    1 keisei  staff   599B May 15 01:56 .hubot_history[9;3H-rw-r--r--    1 keisei  staff    36B May 13 23:53 Procfile[10;3H-rw-r--r--    1 keisei  staff   7.7K May 13 18:02 README.md[11;3Hdrwxr-xr-x    4 keisei  staff   136B May 13 18:02 [38;5;21mbin/[39;49m[12;3H-rw-r--r--    1 keisei  staff   232B May 13 18:02 external-scripts.json[13;3H-rw-r--r--    1 keisei  staff     2B May 13 18:02 hubot-scripts.json[14;3Hdrwxr-xr-x   19 keisei  staff   646B May 15 01:53 [38;5;21mnode_modules/[39;49m[15;3H-rw-r--r--    1 keisei  staff   757B May 15 12:45 package.json[16;3Hdrwxr-xr-x    5 keisei  staff   170B May 15 12:26 [38;5;21mscripts/[39;49m[17;3H-rw-r--r--    1 keisei  staff    22K May 15 12:45 typescript
+[K
+[K
+[K
+[K
+[K
+[K[24;4H[30m[48;5;250mU:%%--F1  [39;49m[1m[30m[48;5;250mhellobot         [0m[39;49m[30m[48;5;250m   All L5     (Dired by name RBlock WS) [39;49m[5;53H[?12l[?25h[?12;25h[25;1H[K[24;39H[?25l[30m[48;5;250m6[39;49m[6;53H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m7[39;49m[7;53H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m8[39;49m[8;53H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m9[39;49m[9;53H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m10[39;49m[10;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m1[39;49m[11;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m2[39;49m[12;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m3[39;49m[13;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m4[39;49m[14;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m5[39;49m[15;53H[?12l[?25h[?12;25h[24;40H[?25l[30m[48;5;250m6[39;49m[16;53H[?12l[?25h[?12;25h[H			[?25l[38;5;28m/scripts[39;49m:[2;27H24 available 3007761[K
+		5 keisei  staff   170B May 15 12:26 [38;5;21m./[39;49m[K[4;13H  15 keisei  staff   510B May 15 12:45 [38;5;21m../[39;49m[K
+		1 keisei  staff   356B May 15 11:30 cron.coffee[K[6;3H-rw-r--r--   1 keisei  staff   3.2K May 13 18:07 example.coffee
+		1 keisei  staff   718B May 15 12:26 slack-hello.coffee
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[24;14H[1m[30m[48;5;250mscripts          [0m[39;49m[30m[48;5;250m   All L5 [39;49m[5;52H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m6     (Dired by name WS) -------[39;49m[6;52H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m7[39;49m[7;52H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m6[39;49m[6;52H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m5[39;49m[5;52H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m6[39;49m[6;52H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m7[39;49m[7;52H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m6[39;49m[6;52H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m7[39;49m[7;52H[?12l[?25h[?12;25h[24;39H[?25l[30m[48;5;250m6[39;49m[6;52H[?12l[?25h[?12;25h[H[?25l# Description:[K
+#   Example scripts for you to examine and try out.
+#[K
+# Notes:[K
+#   They are commented out by default, because most of them are pretty silly an\
+d[K
+#   wouldn't be useful and amusing enough for day to day huboting.[K
+#   Uncomment the ones you want to try and experiment with.
+#
+#   These are from the scripting documentation: https://github.com/github/hubot\
+/blob/master/docs/scripting.md
+
+module.exports = (robot) ->[15;4Hrobot.hear /badger/i, (res) ->[16;6Hres.send [38;5;89m"Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"[39;49m
+[1m[33m[101m  [0m[39;49m
+[Crobot.respond /open the (.*) doors/i, (res) ->[19;6HdoorType = res.match[1][20;6Hif doorType is [38;5;89m"pod bay"[39;49m
+	res.reply [38;5;89m"I'm afraid I can't let you do that."[39;49m[22;6Helse
+res.reply [38;5;89m"Opening #{doorType} doors"[39;49m[24;4H[30m[48;5;250m-:----F1  [39;49m[1m[30m[48;5;250mexample.coffee[0m[39;49m[30m[48;5;250m   Top L1    Git-master  (Fundamental RBlock WS) [39;49m[H[?12l[?25h[?12;25h[?25l     else[K
+       res.reply [38;5;89m"Opening #{doorType} doors"[39;49m[K
+[1m[33m[101m  [0m[39;49m
+   robot.hear /I like pie/i, (res) ->
+     res.emote [38;5;89m"makes a freshly baked pie"[39;49m[K
+[1m[33m[101m  [0m[39;49m
+   lulz = ['lol', 'rofl', 'lmao'][K
+[1m[33m[101m  [0m[39;49m[K
+   robot.respond /lulz/i, (res) ->
+     res.send res.random lulz[K
+[1m[33m[101m  [0m[39;49m[K
+[Crobot.topic (res) ->
+     res.send [38;5;89m"#{res.message.text}? That's a Paddlin'"[39;49m
+[1m[33m[101m  [0m[39;49m
+[1m[33m[101m  [0m[39;49m[K
+[CenterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha'\
+, 'I see you'][18;4HleaveReplies = ['Are you still there?', 'Target lost', 'Searching']
+[1m[33m[101m  [0m[39;49m[K
+[Crobot.enter (res) ->[K[21;6Hres.send res.random enterReplies[K[22;4Hrobot.leave (res) ->[23;6Hres.send res.random leaveReplies[K[24;31H[30m[48;5;250m22% L20[39;49m[H[?12l[?25h[?12;25h[1;4H[?25lrobot.leave (res) ->[2;6Hres.send res.random leaveReplies[K[4;4Hanswer = process.env.HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIVE\
+RSE_AND_EVERYTHING[K[7;4Hrobot.respond /what is the answer to the ultimate question of life/, (res) -\
+>[K[9;4H  unless answer?[K[10;6H[2@		[38;5;89m"Missing HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIV[39;49m\
+[38;5;89mERSE_AND_EVERYTHING in environment: please set and try again"[39;49m[12;4H    return[K[13;18H[38;5;89manswer}, but what is the question?"[39;49m[K
+
+   robot.respond /you are a little slow/, (res) ->[16;4H  setTimeout () ->[K
+       res.send [38;5;89m"Who you calling 'slow'?"[39;49m[18;4H  , 60 * 1000[K[20;4HannoyIntervalId = null
+[1m[33m[101m  [0m[39;49m[K[22;10Hrespo[14@nd /annoy me/,[23;6Hif annoyIntervalId[K
+		[30m[48;5;250m39% L4[39;49m[H[?12l[?25h[?12;25h[1;10H[?25lrespo[14@nd /annoy me/,[2;6Hif annoyIntervalId[K
+       res.send [38;5;89m"AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"[39;49m[4;4H    return[K
+[1m[33m[101m  [0m[39;49m[K
+     res.send [38;5;89m"Hey, want to hear the most annoying sound in the world?"[39;49m[7;4H  annoyIntervalId = setInterval () ->[K
+       res.send [38;5;89m"AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"[39;49m[9;6H, 1000[K
+[1m[33m[101m  [0m[39;49m[K
+   robot.respond /unannoy me/, (res) ->[K[12;6Hif annoyIntervalId[13;6H[2@[13;18H[38;5;89mGUYS, GUYS, GUYS!"[39;49m[K
+       clearInterval(annoyIntervalId)[15;4H    annoyIntervalId = null[K[16;6Helse[K[17;18H[38;5;89mNot annoying you right now, am I?"[39;49m
+[1m[33m[101m  [0m[39;49m[K
+
+[Crobot.router.post '/hubot/chatsecrets/:room', (req, res) ->
+     room   = req.params.room[22;4H  data   = JSON.parse req.body.payload[23;6Hsecret = data.secret
+	[30m[48;5;250m59% L58[39;49m[H[?12l[?25h[?12;25h[1;4H[?25l  data   = JSON.parse req.body.payload[2;6Hsecret = data.secret
+[1m[33m[101m  [0m[39;49m[K[4;6Hrobot.messageRoom room, [38;5;89m"I have a secret: #{secret}"[39;49m[6;15H'OK'[K
+[1m[33m[101m  [0m[39;49m[K
+[Crobot.error (err, res) ->[K[9;6Hrobot.logger.error [38;5;89m"DOES NOT COMPUTE"[39;49m[11;4H  if res?[K[12;6H  res.reply [38;5;89m"DOES NOT COMPUTE"[39;49m
+[1m[33m[101m  [0m[39;49m[K
+[Crobot.respond /have a soda/i, (res) ->[15;6H# Get number of sodas had (coerced to a number).[16;6HsodasHad = robot.brain.get('totalSodas') * 1 or 0
+[1m[33m[101m  [0m[39;49m[K
+     if sodasHad > 4
+       res.reply [38;5;89m"I'm too fizzy.."[39;49m
+[1m[33m[101m  [0m[39;49m[K[21;6Helse[K
+  res.reply 'Sure!'[K
+[1m[33m[101m  [0m[39;49m[K[24;31H[30m[48;5;250m79% L79[39;49m[H[?12l[?25h[?12;25h[1;6H[?25l  res.reply 'Sure!'[K
+[1m[33m[101m  [0m[39;49m[K
+       robot.brain.set 'totalSodas', sodasHad+1
+[1m[33m[101m  [0m[39;49m[K
+   robot.respond /sleep it off/i, (res) ->[6;7Hobot.brain.set 'totalSodas', 0
+     res.reply 'zzzzz'
+[38;5;124m[43m  [39;49m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[24;31H[30m[48;5;250mBot L100[39;49m[H[?12l[?25h[?12;25h[25d[?25lEnd of buffer[H[?12l[?25h[?12;25h[25d[K[24;38H[?25l[30m[48;5;250m1[39;49m[H
+[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m2[39;49m[H
+
+[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m3[39;49m[4;1H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m2[39;49m[H
+
+[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m3[39;49m[4;1H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m4[39;49m[5;1H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m5[39;49m[6;1H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m6[39;49m[7;1H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m7[39;49m[8;1H[?12l[?25h[?12;25h[25d[?25lEnd of buffer[8;1H[K[8;3H[?12l[?25h[?12;25h[25;1H[K[24;6H[?25l[30m[48;5;250m**--F1  [39;49m[1m[30m[48;5;250mexample.coffee[0m[39;49m[30m[48;5;250m   Bot L108  Git-master  (Fundamental WS) -------[39;49m[9;1H[?12l[?25h[?12;25h[C[C[24;38H[?25l[30m[48;5;250m7[39;49m[8;1H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m6[39;49m[7;23H[?12l[?25h[?12;25h[25;1H[?25lSaving file /Users/keisei/hellobot/scripts/example.coffee...[7;23H[?12l[?25h[?12;25h[25;1H[?25lWrote /Users/keisei/hellobot/scripts/example.coffee[K[7;23H[?12l[?25h[?12;25h[25;1H[?25l保存しました[K[7;23H[?12l[?25h[?12;25h[24;6H[?25l[30m[48;5;250m----F1  [39;49m[1m[30m[48;5;250mexample.coffee[0m[39;49m[30m[48;5;250m   Bot L106  Git:[39;49m[7;23H[?12l[?25h[?12;25h[25;1H[K[7;23H[25;1H[?25l[38;5;20mFind file or URL: [39;49m~/hellobot/scripts/[?12l[?25h[?12;25h[K[1;3H[?25l[38;5;28m/Users/keisei/hellobot/scripts[39;49m:
+  total used in directory 24 available 3007571[3;3Hdrwxr-xr-x   5 keisei  staff   170B May 15 12:46 [38;5;21m./[39;49m
+  drwxr-xr-x  15 keisei  staff   510B May 15 12:45 [38;5;21m../[39;49m[5;3H-rw-r--r--   1 keisei  staff   356B May 15 11:30 cron.coffee[6;3H-rw-r--r--   1 keisei  staff   3.2K May 15 12:46 example.coffee[7;3H-rw-r--r--   1 keisei  staff   718B May 15 12:26 slack-hello.coffee[24;4H[30m[48;5;250mU:%%--F1  [39;49m[1m[30m[48;5;250mscripts          [0m[39;49m[30m[48;5;250m   All L5     (Dired by name RBlock WS) [39;49m[5;52H[?12l[?25h[?12;25h[25;1H[?25lN is undefined[5;52H[?12l[?25h[?12;25h[24;60H[?25l[30m[48;5;250mWS) -------[39;49m[5;52H[?12l[?25h[?12;25h[25;1H[K[5;52H[25;1H[?25l[38;5;20mFind file or URL: [39;49m~/hellobot/scripts/cron.coffee[5;52H[48;5;157mcron.coffee[39;49m[25;38H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25ln.coffee[K[25;38H[?12l[?25h[?12;25h[?25l.coffee[K[?12l[?25h[?12;25h[?25lg.coffee[?12l[?25h[?12;25h[?25li.coffee[?12l[?25h[?12;25h[?25ls.coffee					[?12l[?25h[?12;25h[?25la.coffee[?12l[?25h[?12;25h[?25ln.coffee[?12l[?25h[?12;25h[?25li.coffee[?12l[?25h[?12;25h[?25lt.coffee[?12l[?25h[?12;25h[?25ly.coffee[?12l[?25h[?12;25h[?25l.coffee[K[?12l[?25h[?12;25h[?25ly.coffee[?12l[?25h[?12;25h[?25l(New file)[K[5;52H[?12l[?25h[?12;25h[H[K
+[K
+[K
+[K
+[K
+[K
+[K[24;6H[?25l[30m[48;5;250m----F1  [39;49m[1m[30m[48;5;250mgisanity.coffee[0m[39;49m[30m[48;5;250m   All L1     (Fundamental RBlock WS) [39;49m[H[?12l[?25h[?12;25h[25d[K[H[?25lt[24;6H[30m[48;5;250m**--F1  [39;49m[1m[30m[48;5;250mgisanity.coffee[0m[39;49m[30m[48;5;250m   All L1     (Fundamental WS) -------[39;49m[1;2H[?12l[?25h[?12;25h[?25lu[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[?25lb[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h	[?25l=[?12l[?25h[?12;25h[C[?25lr[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25lq[?12l[?25h[?12;25h[?25lu[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[C[?25l[38;5;89m"[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mt[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mu[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mm[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mb[39;49m[?12l[?25h[?12;25h[?25l[38;5;89ml[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mr[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mb[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mo[39;49m[?12l[?25h[?12;25h[?25l[38;5;89mt[39;49m[?12l[?25h[?12;25h[?25l[38;5;89m"[39;49m[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m2[39;49m[H
+[?12l[?25h[?12;25h[?25lS[?12l[?25h[?12;25h[?25lO[?12l[?25h[?12;25h[?25lU[?12l[?25h[?12;25h[?25lR[?12l[?25h[?12;25h[?25lC[?12l[?25h[?12;25h[?25lE[?12l[?25h[?12;25h[?25lS[?12l[?25h[?12;25h	[?25l=[?12l[?25h[?12;25h[C[?25l{[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m3[39;49m[H
+
+[?12l[?25h[?12;25h[2;11H[?25l[48;5;80m{[39;49m
+}[?12l[?25h[?12;25h[2;11H[?25l{[24;37H[30m[48;5;250m2[39;49m[2;2H[?12l[?25h[?12;25h[2;12H
+[K
+[?25l}[24;37H[30m[48;5;250m3[39;49m[H
+
+[?12l[?25h[?12;25h[C[C[25;1H[?25lMark set[3;3H[?12l[?25h[?12;25h[?25lhttp://mikugifanime.tumblr.com/[?12l[?25h[?12;25h[25;1H[K[3;34H[?25l[38;5;89m"                                              [39;49m
+[38;5;89m}[39;49m[3;35H[?12l[?25h[?12;25h[3;3H[C[?25l[38;5;89m"http://mikugifanime.tumblr.com/"[39;49m[K
+}[3;4H[?12l[?25h[?12;25h[3;36H[24;37H[?25l[30m[48;5;250m4[39;49m[4;2H[?12l[?25h[?12;25h[25;1H[?25lEnd of buffer[4;2H[?12l[?25h[?12;25h[25;1H[K[24;37H[?25l[30m[48;5;250m5[39;49m[5;1H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m6[39;49m[6;1H[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[?25lG[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h	[?25l=[?12l[?25h[?12;25h[C[?25l([?12l[?25h[?12;25h[?25lb[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25l,[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[6;10H[?25l[48;5;80m([39;49mblog,msg)[?12l[?25h[?12;25h[6;10H[?25l([6;19H[?12l[?25h[?12;25h	[?25l msg)		[?12l[?25h[?12;25h[6;21H[C[?25l-[?12l[?25h[?12;25h[?25l>[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[7;1H[?12l[?25h[?12;25h[C[C[?25lt[?12l[?25h[?12;25h[?25lu[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[?25lb[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[?25lp[?12l[?25h[?12;25h[?25lh[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25l([?12l[?25h[?12;25h[?25lb[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25l[48;5;80m([39;49mblog)[?12l[?25h[?12;25h		[?25l(blog).[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[K[?25ld[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[K[K[K[?25ln[?12l[?25h[?12;25h[?25ld[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[C[?25l([?12l[?25h[?12;25h[?25lp[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[?25l[48;5;80m([39;49mpost)[?12l[?25h[?12;25h[?25l([7;37H[?12l[?25h[?12;25h[C[?25l-[?12l[?25h[?12;25h[K[7;38H[?25l-[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h	[24;37H[?25l[30m[48;5;250m8[39;49m[8;3H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m7[39;49m[7;39H[?12l[?25h[?12;25h[K[?25l>[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m8[39;49m[8;3H[?12l[?25h[?12;25h[C[C[?25lm[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[?25ld[?12l[?25h[?12;25h[K[?25ls[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25ld[?12l[?25h[?12;25h[C[?25lp[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25ly[?12l[?25h[?12;25h[K[?25lt[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[?25lp[?12l[?25h[?12;25h[?25lh[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25l[[?12l[?25h[?12;25h[?25l0[?12l[?25h[?12;25h[?25l[48;5;80m[[39;49m0][?12l[?25h[?12;25h[?25l[0].[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25l_[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25lz[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[?25lu[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m9[39;49m[9;5H[?12l[?25h[?12;25h[24;37H[?25l[30m[48;5;250m10[39;49m[10;1H[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25ld[?12l[?25h[?12;25h[?25lu[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25lx[?12l[?25h[?12;25h[?25lp[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h		[?25l=[?12l[?25h[?12;25h[C[?25l([?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lb[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[?25l[48;5;80m([39;49mrobot)[?12l[?25h[?12;25h[?25l(	[C[?12l[?25h[?12;25h[?25l-[?12l[?25h[?12;25h[?25l>[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m1[39;49m[11;1H[?12l[?25h[?12;25h[C[C[?25lr[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lb[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25lp[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25ld[?12l[?25h[?12;25h	[?25l/[?12l[?25h[?12;25h[?25lv[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lc[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ld[?12l[?25h[?12;25h[K[K[K[K[K[K[K[K[?25lm[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25lk[?12l[?25h[?12;25h[?25lu[?12l[?25h[?12;25h[?25l/[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25l,[?12l[?25h[?12;25h[C[?25l([?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25l[48;5;80m([39;49mmsg)[?12l[?25h[?12;25h[?25l(	[?12l[?25h[?12;25h[?25l-[?12l[?25h[?12;25h[?25l>[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m2[39;49m[12;3H[?12l[?25h[?12;25h[C[C[?25lb[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[C[?25l=[?12l[?25h[?12;25h[C[?25lm[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25ld[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[C[?25lO[?12l[?25h[?12;25h[?25lb[?12l[?25h[?12;25h[?25lj[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25lc[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[?25lk[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25ly[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25l([?12l[?25h[?12;25h[?25lS[?12l[?25h[?12;25h[?25lO[?12l[?25h[?12;25h[?25lU[?12l[?25h[?12;25h[?25lR[?12l[?25h[?12;25h[?25lC[?12l[?25h[?12;25h[?25lE[?12l[?25h[?12;25h[?25lS[?12l[?25h[?12;25h[K[?25lS[?12l[?25h[?12;25h[12;34H[?25l[48;5;80m([39;49mSOURCES)[?12l[?25h[?12;25h[12;34H[?25l([24;38H[30m[48;5;250m3[39;49m[13;5H[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[?25lG[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25lf[?12l[?25h[?12;25h[C[?25lb[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[K[?25l,[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h	[?25l msg[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m2[39;49m[12;18H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m1[39;49m[11;18H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[4@みく[?12l[?25h[?12;25h[?25l[2P[?12l[?25h[?12;25h[?25l[2P[?12l[?25h[?12;25h[?25l[4@みく[?12l[?25h[?12;25h[?25l[1@♡[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[2P[?12l[?25h[?12;25h[?25l[2P[?12l[?25h[?12;25h[?25l[4@みく[?12l[?25h[?12;25h[?25l[2P[?12l[?25h[?12;25h[?25l[2P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[C[?25l[1@/[?12l[?25h[?12;25h[?25l[1@m[?12l[?25h[?12;25h[?25l[1@i[?12l[?25h[?12;25h[?25l[1@k[?12l[?25h[?12;25h[?25l[1@u[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m2[39;49m[12;22H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m3[39;49m[13;21H[?12l[?25h[?12;25h[25;1H[?25lSaving file /Users/keisei/hellobot/scripts/gisanity.coffee...[13;21H[?12l[?25h[?12;25h[25;1H[?25lWrote /Users/keisei/hellobot/scripts/gisanity.coffee[K[13;21H[?12l[?25h[?12;25h[25;1H[?25l保存しました[K[13;21H[?12l[?25h[?12;25h[24;6H[?25l[30m[48;5;250m--[39;49m[13;21H[?12l[?25h[?12;25h[25;1H[K[24;38H[?25l[30m[48;5;250m2[39;49m[12;21H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m1[39;49m[11;21H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m0[39;49m[10;21H[?12l[?25h[?12;25h[24;38H[?25l[30m[48;5;250m1[39;49m[11;21H[?12l[?25h[?12;25h[C		[C[C[C[C		[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C[C		[C[C[C[C
