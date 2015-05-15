@@ -5,19 +5,19 @@
 
   robot.hear /こんばんは/i, (msg) ->
     username = msg.message.user.name
-    msg.send "こんばんは " + username
+    msg.send "こんばんは、マスター！"
 
   robot.hear /こんにちは/i, (msg) ->
     username = msg.message.user.name
-    msg.send "こんにちは " + username
+    msg.send "こんにちは、マスター♡"
 
   robot.hear /おはよう/i, (msg) ->
     username = msg.message.user.name
-    msg.send "おはよう " + username
+    msg.send "おはようマスター♡"
 
   robot.hear /おやすみ/i, (msg) ->
     username = msg.message.user.name
-    msg.send "おやすみ " + username
+    msg.send "おやすみ マスター"
 
   robot.hear /進捗ダメです/i, (msg) ->
-    msg.send "がんばって"
+    msg.send "がんばって👏🐤🔥"
