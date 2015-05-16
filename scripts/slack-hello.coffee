@@ -1,26 +1,35 @@
-﻿module.exports = (robot) ->
-  robot.hear /Hello/i, (msg) ->
+﻿module.exports = (miku) ->
+  miku.hear /Hello/i, (msg) ->
     username = msg.message.user.name
     msg.send "Hello, " + username
 
-  robot.hear /こんばんは/i, (msg) ->
+  miku.hear /こんばんは/i, (msg) ->
     username = msg.message.user.name
-    msg.send "こんばんは、マスター！"
+    msg.send msg.random ["こんばんは、マスター！", "トゥース"]
 
-  robot.hear /こんにちは/i, (msg) ->
+  miku.hear /こんにちは/i, (msg) ->
     username = msg.message.user.name
-    msg.send "こんにちは、マスター♡"
+    msg.send msg.random ["こんにちは、マスター♡", "トゥース"]
 
-  robot.hear /おはよう/i, (msg) ->
+  miku.hear /おはよう/i, (msg) ->
     username = msg.message.user.name
-    msg.send "おはようマスター♡"
+    msg.send msg.random ["おはようマスター♡", "おはよっ♡"]
 
-  robot.hear /おやすみ/i, (msg) ->
+  miku.hear /おやすみ/i, (msg) ->
     username = msg.message.user.name
-    msg.send "おやすみ マスター"
+    msg.send msg.random ["おやすみ マスター", "おつかれさま♡"]
 
-  robot.hear /進捗ダメです/i, (msg) ->
-    msg.send "がんばって👏🐤🔥"
+  miku.hear /進捗ダメです/i, (msg) ->
+    msg.send msg.random ["がんばって👏🐤🔥", "オイオイオイオイ〜〜👏🐤"]
 
-  robot.hear /✎/i, (msg) ->
-    msg.send "ふむふむ✎"
+  miku.hear /✎/i, (msg) ->
+    msg.send msg.random ["ふむふむ✎", "うんうん✎"]
+
+  miku.hear /🔥/i, (msg) ->
+    msg.send msg.random ["🔥", "”””””やっぞ”””””"]
+
+  miku.hear /👊/i, (msg) ->
+    msg.send msg.random ["がんばってね♡", "👊😎"]
+
+  miku.hear /すき/i, (msg) ->
+    msg.send msg.random ["ふぇぇ...///", "私もマスターのこと大好きだよ...？", "んっ....♡", "はずかしぃょぅ....", "どっちが好きか勝負するのやっぞ💢💢", "愛の告白かよ。ここはインターネットだぞ。"]
